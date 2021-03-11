@@ -3,7 +3,6 @@ import React from "react";
 const About = () => {
     return (
         <div className="component-wraper" id="about" >
-            Words and things: in the component wrapper
             <br /><br /><br /><br /><br /><br />
 
             <h2>About Me</h2>
@@ -18,10 +17,8 @@ const About = () => {
 
             <section className="links">
 
-            Words and things: in the links section
 
                     <div className="box">
-                    Words and things: in the box section
                         <h3>Contact Information</h3>
                         <ul>
                         <li>Jake Barber</li>
