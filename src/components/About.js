@@ -3,7 +3,9 @@ import React from "react";
 const About = () => {
     return (
         <div className="component-wraper" id="about" >
+            Words and things: in the component wrapper
             <br /><br /><br /><br /><br /><br />
+
             <h2>About Me</h2>
             <p className="about-info" >
                 My name is <a className="text-link" href="https://linkedin.com/in/jakebarber1996" target="_blank">Jake Barber</a> and I am an aspiring software developer, hoping to specialize in blockchain development on Ethereum.
@@ -16,9 +18,10 @@ const About = () => {
 
             <section className="links">
 
-                
+            Words and things: in the links section
 
                     <div className="box">
+                    Words and things: in the box section
                         <h3>Contact Information</h3>
                         <ul>
                         <li>Jake Barber</li>
