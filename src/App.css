@@ -193,7 +193,6 @@ nav ul li {
   border: .15rem solid #FF9900;
   padding: 2rem;
   background-color: darkgrey;
-  opacity: 85%; 
   position: relative;
   z-index: 3;
 }
