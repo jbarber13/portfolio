@@ -1,38 +1,234 @@
-.App {
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+body{
+    font-family: 'Ubuntu', sans-serif;
+    position: relative;
+    background: url(./images/background.png) ;
+    background-size: cover;
+    background-repeat: repeat-y;
+    background-position: center;
+    height: 3840px;
+}
+body::-webkit-scrollbar {
+  width: .2rem;  
+}
+ 
+body::-webkit-scrollbar-track {
+  background: black;  
+}
+ 
+body::-webkit-scrollbar-thumb {
+  background: #FF9900
+}
+
+h2{
   text-align: center;
+  color: lightgrey;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 3rem !important;
+  font-weight: bold !important;
+  text-decoration: underline;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+/************NAVBAR - use rem instead of px for bootstrap*************/
+nav {
+  z-index: 10; /*navbar on top of particles*/
+  
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.logo{
+  width: 4.5rem;
+  height: 4.5rem;
+  border-radius: 50%;
+}
+.sticky-nav {
+  position: sticky !important;
+  top: 0;
+}
+/************NAVBAR ANIMATION*************/
+
+
+
+
+
+/************MENU LINKS*************/
+nav a.nav-link {
+  font-weight: 500;
+  letter-spacing: 0.1rem;
+  cursor: pointer;
+}
+nav a.nav-link:hover{
+  transition: .4s ease-in-out;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+/*nav list text in upper case*/
+nav ul li {
+  text-transform: uppercase;
+  margin: 2rem;
+}
+
+.navbar-nav > li > a {
+  margin-right: .75rem;
+  margin-left: .75rem;
+}
+
+.navbar-brand{
+  max-width: 17.25rem;
+  padding: 0 !important;
+  height: 5rem !important;
+}
+
+.navbar-nav > li > a.active, .navbar-nav > li > a.active:focus {
+  padding: 0;
+  border-bottom: 0.18rem solid gray
+}
+.navbar-nav > li  > a:hover {
+  padding: 0;
+  border-bottom: 0.18rem solid gray
+
+}
+
+/************HEADER*************/
+.component-wraper {
+  position: relative;  
+  height: 90vh;
+  max-height: 90vh;
+}
+.main-info{
   display: flex;
+
+  /*Put in absolute center of page*/
+  position: absolute;
+  top:0;
+  left:0;
+  right:0;
+  bottom:0;  
+
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  text-align: center;
+  font-family: 'Ubuntu', sans-serif;
+}
+.main-info h1 {
+  color: lightgray;
+  text-transform: uppercase;
+}
+.main-info p {
+  color: lightgray;
+  font-size: 1.3rem;
 }
 
-.App-link {
-  color: #61dafb;
+.typed-text{
+  color: lightgray;
+  font-size: 2rem;
+}
+.contact {
+  border: .0625rem solid lightgray;
+  text-transform: uppercase;
+  border-radius: 0;
+  padding: .625rem .75rem .75rem .75rem;
+  color: lightgray;
+  margin: 2rem;
+  z-index: 2; /*on top of particles*/  
+}
+ .contact:hover{
+   background-color: lightgray;
+   color: black;
+   transition: .2s ease-in-out;
+ }
+
+/******************PARTICLES********************/
+.tsparticles-canvas-el{
+  position: absolute;
+  height: 100vh;
+  width: 100vw;
+  z-index: 1;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@media(max-width: 768px){
+  .particles-canvas{ /*Don't show particles on small display*/
+    display: none;
   }
-  to {
-    transform: rotate(360deg);
+  .main-info{
+    font-size: 1.6rem !important;
+  }
+  .typed-text{
+    font-size: 1.4rem !important;
+  }
+  .navbar-brand{
+    width: 7rem !important;
   }
 }
+
+/******************ABOUT********************/
+.about-info{
+  color: lightgray;
+  align-items: center;
+  text-align: center;
+
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 500;
+  font-size: 2rem;
+
+  position: relative;
+  z-index: 3;
+
+}
+.text-link{
+  color: lightgray;
+  text-decoration: underline;
+  
+
+}
+.text-link:hover{  
+   transition: .2s ease-in-out;
+   color: black;
+
+}
+.links {
+  margin: auto;
+  width: 30%;
+  border: .15rem solid #FF9900;
+  padding: 2rem;
+  background-color: darkgrey;
+  opacity: 85%; 
+  position: relative;
+  z-index: 3;
+}
+.box{
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 1.5rem;
+  font-weight: bold;  
+  
+}
+.links > .box > h3 {
+  font-weight: bold;
+  font-size: 2rem;
+  letter-spacing: .15rem;
+  word-spacing: .4rem;
+}
+.links > .box > .resumeButton > .contact {
+  margin: 0;
+  position: relative;
+  left: 32%;
+  color: black;  
+}
+
+/******************PORTFOLIO********************/
+.portfolio{
+  color: black;  
+  font-family: 'Ubuntu', sans-serif;
+  position: relative;
+}
+
+.portfolio > .links {
+  width: 80%;
+  text-align: center;
+  font-size: 1.5rem;
+}
+.portfolio > .links >  h2 {
+  color: black;
+}
+
+
