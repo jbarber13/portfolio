@@ -33,7 +33,7 @@ const About = () => {
                         <h3>Contact Information</h3>
                         <ul>
                         <li>Jake Barber</li>
-                        <li>1800 Killian Lakes Drive, #18106, Columbia SC, 29203</li>
+                        <li>1800 Killian Lakes Drive, #18106 <br /> Columbia SC, 29203</li>
                         <li>Mobile: (703) 635-8884</li>
                         <li>jabot999@gmail.com</li>
                         
