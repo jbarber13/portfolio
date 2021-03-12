@@ -131,7 +131,7 @@ nav ul li {
   font-size: 2rem;
 }
 .contact {
-  border: .0625rem solid lightgray;
+  border: .0625rem solid var(--btcOrange);
   text-transform: uppercase;
   border-radius: 0;
   padding: .625rem .75rem .75rem .75rem;
@@ -140,8 +140,9 @@ nav ul li {
   z-index: 2; /*on top of particles*/  
 }
  .contact:hover{
-   background-color: lightgray;
+   background-color: var(--btcOrange);
    color: black;
+   font-weight: bolder;
    transition: .2s ease-in-out;
  }
 
@@ -216,34 +217,15 @@ nav ul li {
   letter-spacing: .15rem;
   word-spacing: .4rem;
 }
-.links > .box > .resumeButton > .contact {
-  margin: 0;
-  position: relative;
-  left: 32%;
-  color: lightgray;
-}
-.links > .box > .resumeButton > .contact:hover {
-  margin: 0;
-  position: relative;
-  left: 32%;
-  color: black;
+.links > .box > .resumeButton {
+  display: flex;
+  justify-content: center;
 }
 
-/******************PORTFOLIO********************/
-.portfolio{
-  color: lightgray; 
-  font-family: 'Ubuntu', sans-serif;
-  position: relative;
-}
 
-.portfolio > .links {
-  width: 80%;
-  text-align: center;
-  font-size: 1.5rem;
-}
-.portfolio > .links >  h2 {
-  color: lightgray;
-}
+
+/******************BLOCKCHAIN********************/
+
 .blockchain-words{
   WIDTH: 80%;
   margin: 0 auto;
@@ -256,6 +238,21 @@ nav ul li {
   background-color: black;
   text-align: center;
   
+}
+
+/******************PROJECTS********************/
+.projects{
+  color: lightgray; 
+  font-family: 'Ubuntu', sans-serif;
+  position: relative;
+}
+.projects > .links {
+  width: 80%;
+  text-align: center;
+  font-size: 1.5rem;
+}
+.projects > .links >  h2 {
+  color: lightgray;
 }
 
 
