@@ -5,7 +5,7 @@ import Particles from "react-particles-js";
 import Navbar from './components/Navbar'
 import Header from "./components/Header"
 import About from "./components/About"
-import Portfolio from "./components/Portfolio"
+import Blockchain from "./components/Blockchain"
 
 
 
@@ -45,7 +45,7 @@ function App() {
       <Navbar className="sticky-=nav" />
       <Header />
       <About />
-      <Portfolio />
+      <Blockchain />
       
     </>  
   );

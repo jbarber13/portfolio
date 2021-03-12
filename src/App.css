@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+:root{
+  --btcOrange: #FF9900;
+}
 body{
     font-family: 'Ubuntu', sans-serif;
     position: relative;
@@ -18,7 +21,7 @@ body::-webkit-scrollbar-track {
 }
  
 body::-webkit-scrollbar-thumb {
-  background: #FF9900
+  background: var(--btcOrange)
 }
 
 h2{
@@ -45,6 +48,10 @@ nav {
 .sticky-nav {
   position: sticky !important;
   top: 0;
+}
+.navbar-toggler{
+  background-color: red;
+  z-index: 3;
 }
 /************NAVBAR ANIMATION*************/
 
@@ -93,7 +100,6 @@ nav ul li {
 .component-wraper {
   position: relative;  
   height: 90vh;
-  max-height: 90vh;
 }
 .main-info{
   display: flex;
@@ -185,14 +191,15 @@ nav ul li {
 .text-link:hover{  
    transition: .2s ease-in-out;
    color: black;
+   background-color: lightgray;
 
 }
 .links {
   margin: auto;
   width: 30%;
-  border: .15rem solid #FF9900;
+  border: .15rem solid var(--btcOrange);
   padding: 2rem;
-  background-color: darkgrey;
+  background-color: black;
   position: relative;
   z-index: 3;
 }
@@ -200,6 +207,7 @@ nav ul li {
   font-family: 'Ubuntu', sans-serif;
   font-size: 1.5rem;
   font-weight: bold;  
+  color: lightgray;
   
 }
 .links > .box > h3 {
@@ -212,12 +220,18 @@ nav ul li {
   margin: 0;
   position: relative;
   left: 32%;
-  color: black;  
+  color: lightgray;
+}
+.links > .box > .resumeButton > .contact:hover {
+  margin: 0;
+  position: relative;
+  left: 32%;
+  color: black;
 }
 
 /******************PORTFOLIO********************/
 .portfolio{
-  color: black;  
+  color: lightgray; 
   font-family: 'Ubuntu', sans-serif;
   position: relative;
 }
@@ -228,7 +242,20 @@ nav ul li {
   font-size: 1.5rem;
 }
 .portfolio > .links >  h2 {
-  color: black;
+  color: lightgray;
+}
+.blockchain-words{
+  WIDTH: 80%;
+  margin: 0 auto;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 1.5rem;
+  font-weight: bold;  
+  color: lightgray;
+  border: .15rem solid var(--btcOrange);
+  padding: 2rem;
+  background-color: black;
+  text-align: center;
+  
 }
 
 
