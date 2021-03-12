@@ -6,7 +6,7 @@ const Header = () => {
         <div className="component-wraper">
             <div className="main-info">
                 <h1>Welcome to my Website!</h1>
-                <p>This website is still under construction....</p>
+                <p>This website is still under construction and is a work in progress....</p>
                 <Typed 
                     className="typed-text"
                     strings={["Blockchain", "Ethereum", "Solidity", "Web3", "React"]}
@@ -15,7 +15,7 @@ const Header = () => {
                     loop                
                 />
 
-                <a href="https://www.linkedin.com/in/jakebarber1996/" target="_blank" className="contact"> Contact Me</a>
+                <a href="#about" className="contact"> Contact Me</a>
             </div>            
         </div>
     )

@@ -5,14 +5,25 @@ const About = () => {
         <div className="component-wraper" id="about" >
             <br /><br /><br /><br /><br /><br />
 
-            <h2>About Me</h2>
-            <p className="about-info" >
-                My name is <a className="text-link" href="https://linkedin.com/in/jakebarber1996" target="_blank">Jake Barber</a> and I am an aspiring software developer, hoping to specialize in blockchain development on Ethereum.
-            </p>
+            <div className="about-words">              
+                <h2>About Me</h2>
+            </div>
+            <div className="about-words">              
+                <p className="about-info" >
+                    My name is <a className="text-link" href="https://linkedin.com/in/jakebarber1996" target="_blank">Jake Barber</a> and I am an aspiring software developer, hoping to specialize in blockchain development on Ethereum.
+                </p>
+            </div>
+            <div className="about-words">              
+                <p className="about-info">
+                    I have a Bachelors degree in Computer Science and Technology, with a concentration in Database Design, as well as an Undergraduate Information Security Certificate recognized by the NSA.  
+                </p>
+            </div>
+
+            
             <br /><br />
-            <p className="about-info">
-                Below is a link to my resume, as well as my contact information. 
-            </p>
+            
+
+            
 
 
             <section className="links">
@@ -28,7 +39,7 @@ const About = () => {
                         
                         </ul>
                         <div className="resumeButton">
-                        <a href="https://drive.google.com/file/d/1XqDIdbJ-AOnlPS5ROrAxYglURUrxmAvU/view?usp=sharing" target="_blank" className="contact">Resume</a>
+                        <a href="https://drive.google.com/file/d/1XqDIdbJ-AOnlPS5ROrAxYglURUrxmAvU/view?usp=sharing" target="_blank" className="contact">RÉsumÉ</a>
                         </div>
                     </div>
                     
