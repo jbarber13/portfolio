@@ -20,7 +20,7 @@ const About = () => {
             </div>
 
             
-            <br /><br />
+            
             
 
             
@@ -50,8 +50,9 @@ const About = () => {
 
             </section>
 
-               
+            
         </div>
+        
     )
 }
 
