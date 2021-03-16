@@ -26,6 +26,7 @@ import Palindrome from "../projects/Java/Zips/Palindrome.zip"
 
 
 
+
 const Projects = () => {
     return (
         <div className="projects" id="projects" >
@@ -33,7 +34,7 @@ const Projects = () => {
 
             <h2>Projects</h2>
             <br />
-
+            
             <div className="links">
                 <h2>
                     <a className="text-link" href="https://barberbucks-dex.jake-barber.com/" target="_blank" rel="noreferrer">BarberBucks DEX</a>
