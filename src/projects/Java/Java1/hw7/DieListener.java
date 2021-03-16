@@ -1,5 +1,0 @@
-interface DieListener {
-
-void dieClicked ();
-
-}
