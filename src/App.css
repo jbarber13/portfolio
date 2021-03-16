@@ -209,12 +209,13 @@ nav ul li {
   background-color: black;
   position: relative;
   z-index: 3;
+  font-weight: ligher;
 }
 .box{
   font-family: 'Ubuntu', sans-serif;
   font-size: 1.5rem;
-  font-weight: bold;  
-  color: lightgray;
+  font-weight: ligher;  
+  color: darkgray;
   
 }
 .links > .box > h3 {
@@ -285,9 +286,10 @@ nav ul li {
 
 /******************PROJECTS********************/
 .projects{
-  color: lightgray; 
+  color: darkgray; 
   font-family: 'Ubuntu', sans-serif;
   position: relative;
+  font-weight: ligher;
 }
 .projects > .links {
   width: 80%;

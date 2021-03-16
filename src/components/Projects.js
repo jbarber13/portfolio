@@ -1,4 +1,6 @@
 import React from "react";
+
+//POWERSHELL
 import Add2Group from "../projects/powershell/AD_Scripts/Add2Group.ps1"
 import AddCarriageReturn from "../projects/powershell/AD_Scripts/AddCarriageReturn.ps1"
 import ALTaccountMaker from "../projects/powershell/AD_Scripts/ALTaccountMaker.ps1"
@@ -8,9 +10,14 @@ import NotInGroup from "../projects/powershell/AD_Scripts/NotInGroup.ps1"
 import Parse3 from "../projects/powershell/AD_Scripts/Parse3_Test.ps1"
 import ParseByEmail from "../projects/powershell/AD_Scripts/ParseByEmail.ps1"
 import ParseNames from "../projects/powershell/AD_Scripts/ParseNames.ps1"
-
 import btcChecker from "../projects/powershell/FunProjects/btcChecker.ps1"
 import text2speech from "../projects/powershell/FunProjects/text2speech.ps1"
+
+//JAVA ZIPs
+import FileReader from "../projects/Java/Zips/FileReader.zip"
+import InfectionSim from "../projects/Java/Zips/InfectionSim.zip"
+import ListTraverse from "../projects/Java/Zips/ListTraverse.zip"
+import Palindrome from "../projects/Java/Zips/Palindrome.zip"
 
 
 
@@ -29,28 +36,26 @@ const Projects = () => {
 
             <div className="links">
                 <h2>
-                    <a className="text-link" href="https://barberbucks-dex.jake-barber.com/" target="_blank">BarberBucks DEX</a>
+                    <a className="text-link" href="https://barberbucks-dex.jake-barber.com/" target="_blank" rel="noreferrer">BarberBucks DEX</a>
                 </h2>
-                <p><a className="text-link" href="https://barberbucks-dex.jake-barber.com/" target="_blank">BarberBucks DEX</a> is a decentralized application deployed
+                <p><a className="text-link" href="https://barberbucks-dex.jake-barber.com/" target="_blank" rel="noreferrer">BarberBucks DEX</a> is a decentralized application deployed
                  to the Kovan test network where you can trade test ETH for BarberBucks.
                 </p>
                 <p>No true value is exchanged via the app, it is for testing and demonstration purposes only.</p>
                 <p>
-                    This <a className="text-link" href="https://en.wikipedia.org/wiki/Decentralized_application" target="_blank">DAPP</a> is
+                    This <a className="text-link" href="https://en.wikipedia.org/wiki/Decentralized_application" target="_blank" rel="noreferrer">DAPP</a> is
                     a <a className="text-link" href="https://en.wikipedia.org/wiki/Decentralized_exchange"> DEX</a> and
-                    requires a browser extension: <a className="text-link" href="https://metamask.io/" target="_blank">MetaMask</a>
+                    requires a browser extension: <a className="text-link" href="https://metamask.io/" target="_blank" rel="noreferrer">MetaMask</a>
                     , this is an Ethereum wallet.
                 </p>
                 <p>You will need to switch the network in MetaMask to the Kovan test network.</p>
-                <p>If you would like to receive some test ETH to interact with the app, please use the <a className="text-link" href="https://gitter.im/kovan-testnet/faucet" target="_blank">faucet.</a></p>
+                <p>If you would like to receive some test ETH to interact with the app, please use the <a className="text-link" href="https://gitter.im/kovan-testnet/faucet" target="_blank" rel="noreferrer">faucet.</a></p>
                 <p>This will require a <a className="text-link" href="https://github.com/">GitHub</a> account, simply log in and paste your wallet address from metamask (Kovan test network) in the chat and you will be sent some test ETH.</p>
             </div>
 
             <div className="links">
-            <h2>Powershell Scripts</h2>
-            <br />
-
-                <p>These are PowerShell scripts I used in a previous position to automate changes to production AD environments in a U.S. Government contracting role</p>
+                <h2>Powershell Scripts</h2>
+                <p>These are PowerShell scripts I made and used in a previous position to automate changes to production Active Directory environments in a U.S. Government contracting role</p>
                 <table class="table table-dark">
                     <thead>
                         <tr>
@@ -115,12 +120,10 @@ const Projects = () => {
                             <td>ParseNames</td>
                             <td>This is intended to parse an input format of John Doe or Doe, John A. into a UPN such as JADoe</td>
                             <td><a className="text-link" href={ParseNames} target="#_blank">ParseNames.ps1</a></td>
-                        </tr>                        
+                        </tr>
                     </tbody>
                 </table>
-
-                <br />
-                <p>These are some fun scripts I wrote for fun while first learning PowerShell</p>
+                <p>Below are some fun scripts I wrote for myself to in order to learn to use API data and text to speech in PowerShell</p>
                 <table class="table table-dark">
                     <thead>
                         <tr>
@@ -131,7 +134,6 @@ const Projects = () => {
                         </tr>
                     </thead>
                     <tbody>
-
                         <tr>
                             <th scope="row">1</th>
                             <td>btcChecker</td>
@@ -144,16 +146,51 @@ const Projects = () => {
                             <td>A simple script I wrote to learn how to use text to speech and get API data</td>
                             <td><a className="text-link" href={text2speech} target="#_blank">text2speech.ps1</a></td>
                         </tr>
-                                                
+
                     </tbody>
                 </table>
-
-
-
-
             </div>
 
-
+            <div className="links">
+                <h2>Java Projects</h2>
+                <p>These are some small projects I wrote in Java while at University studying computer science</p>
+                <table class="table table-dark">
+                    <thead>
+                        <tr>
+                            <th scope="col">#</th>
+                            <th scope="col">Project</th>
+                            <th scope="col">Description</th>
+                            <th scope="col">Link</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row">1</th>
+                            <td>FileReader</td>
+                            <td>Reads and parses a file, and returns info about the file</td>
+                            <td><a className="text-link" href={FileReader} target="#_blank">FileReader.zip</a></td>
+                        </tr>
+                        <tr>
+                            <th scope="row">2</th>
+                            <td>InfectionSim</td>
+                            <td>Visually simulates the exponential spread of infection in a petri dish; prints data about sim to console</td>
+                            <td><a className="text-link" href={InfectionSim} target="#_blank">InfectionSim.zip</a></td>
+                        </tr>
+                        <tr>
+                            <th scope="row">3</th>
+                            <td>ListTraverse</td>
+                            <td>Allows the user to enter data, then retrieve in various ways, built as an exercise to traverse linked lists.</td>
+                            <td><a className="text-link" href={ListTraverse} target="#_blank">ListTraverse.zip</a></td>
+                        </tr>
+                        <tr>
+                            <th scope="row">4</th>
+                            <td>isPalindrome</td>
+                            <td>Checks if a given string is a palendrome</td>
+                            <td><a className="text-link" href={Palindrome} target="#_blank">Palindrome.zip</a></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
         </div>
     )
 }

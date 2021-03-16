@@ -12,7 +12,7 @@ import synthetix from "../images/dapp_logos/synthetix.png"
 const Blockchain = () => {
     return (
         <div className="blockchain" id="blockchain" >
-            <br /><br /><br /><br /><br />
+            <br /><br /><br /><br /><br /><br />
             <h2>Blockchain</h2><br />
             <div className="blockchain-words">
 
@@ -73,27 +73,27 @@ const Blockchain = () => {
                     <div className="row">
                         <div className="column">
                             <a href="https://aave.com/" target="#_blank">
-                                <img className="dappImage" src={aave}></img>
+                                <img className="dappImage" src={aave} alt="aave"></img>
                             </a>                            
                         </div>
                         <div className="column">
                             <a href="https://compound.finance/" target="#_blank">
-                                <img className="dappImage" src={comp}></img>
+                                <img className="dappImage" src={comp} alt="comp"></img>
                             </a>
                         </div>
                         <div className="column">
                             <a href="https://makerdao.com/en/" target="#_blank">
-                                <img className="dappImage" src={maker}></img>
+                                <img className="dappImage" src={maker} alt="maker"></img>
                             </a>
                         </div>
                         <div className="column">
                             <a href="https://uniswap.org/" target="#_blank">
-                                <img className="dappImage" src={uniswap}></img>
+                                <img className="dappImage" src={uniswap} alt="uni"></img>
                             </a>
                         </div>
                         <div className="column">
                             <a href="https://synthetix.io/" target="#_blank">
-                                <img className="dappImage" src={synthetix}></img>
+                                <img className="dappImage" src={synthetix} alt="synx"></img>
                             </a>
                         </div>
                     </div>

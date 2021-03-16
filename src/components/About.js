@@ -10,7 +10,7 @@ const About = () => {
             </div>
             <div className="about-words">              
                 <p className="about-info" >
-                    My name is <a className="text-link" href="https://linkedin.com/in/jakebarber1996" target="_blank">Jake Barber</a> and I am an aspiring software developer, hoping to specialize in blockchain development on Ethereum.
+                    My name is <a className="text-link" href="https://linkedin.com/in/jakebarber1996" target="_blank" rel="noreferrer">Jake Barber</a> and I am an aspiring software developer, hoping to specialize in blockchain development on Ethereum.
                 </p>
             </div>
             <div className="about-words">              
@@ -39,7 +39,7 @@ const About = () => {
                         
                         </ul>
                         <div className="resumeButton">
-                        <a href="https://drive.google.com/file/d/1XqDIdbJ-AOnlPS5ROrAxYglURUrxmAvU/view?usp=sharing" target="_blank" className="contact">RÉsumÉ</a>
+                        <a href="https://drive.google.com/file/d/1XqDIdbJ-AOnlPS5ROrAxYglURUrxmAvU/view?usp=sharing" target="_blank" rel="noreferrer" className="contact">RÉsumÉ</a>
                         </div>
                     </div>
                     

@@ -1,0 +1,116 @@
+import java.awt.*;
+import java.awt.geom.*;
+import java.util.*;
+
+/**
+   A car shaped icon that can be moved around.
+*/
+public class IconObj implements MoveableShape
+{
+   private Random rand = new Random();
+   private int x;
+   private int y;
+   private int width;
+   private int color;   //0=blue, 1=yello 2=red
+   
+   private int MAX;
+  
+  //movement vectors 
+   private int Y = this.vector();
+   private int X = this.vector();
+
+   /**
+      Constructs an Icon Object with a setable color.
+      @param x the left of the bounding rectangle
+      @param y the top of the bounding rectangle
+      @param width the width of the bounding rectangle
+      @param color the color of the object ==> 0=blue, 1=yello 2=red
+   */
+   public IconObj(int max, int width, int color)
+   {
+      this.MAX = max;   
+      this.x = rand.nextInt(max);
+      this.y = rand.nextInt(max);
+      this.width = width;
+      this.color = color;
+   }
+   
+   private int vector(){
+      int vec = rand.nextInt(4)-2;
+      if(vec != 0)
+         return vec;
+      else
+        return this.vector();
+   }
+   
+   
+    /**
+      translates the movement for the icon
+    */
+   public void translate()
+   {
+      x += X;
+      y += Y;
+   }
+   
+   private void setColor(Graphics2D g){
+      if(color == 0)
+         g.setColor(Color.BLUE);
+      else if(color == 1)
+         g.setColor(Color.YELLOW);
+      else if(color == 2)
+         g.setColor(Color.RED);
+      else{
+         System.out.println("Invalid Color Number");
+         g.setColor(Color.BLUE);
+      }
+   }
+   
+    /**
+      Sets the color and draws the shape
+      @param g2 the graphics context
+   */
+
+   public void draw(Graphics2D g2)
+   {
+      this.setColor(g2);
+      
+      Rectangle2D.Double body
+            = new Rectangle2D.Double(x, y + width / 6, 
+                  width - 1, width / 6);
+      Ellipse2D.Double frontTire
+            = new Ellipse2D.Double(x + width / 6, y + width / 3, 
+                  width / 6, width / 6);
+      Ellipse2D.Double rearTire
+            = new Ellipse2D.Double(x + width * 2 / 3, y + width / 3,
+                  width / 6, width / 6);
+   
+      // The bottom of the front windshield
+      Point2D.Double r1
+            = new Point2D.Double(x + width / 6, y + width / 6);
+      // The front of the roof
+      Point2D.Double r2
+            = new Point2D.Double(x + width / 3, y);
+      // The rear of the roof
+      Point2D.Double r3
+            = new Point2D.Double(x + width * 2 / 3, y);
+      // The bottom of the rear windshield
+      Point2D.Double r4
+            = new Point2D.Double(x + width * 5 / 6, y + width / 6);
+      Line2D.Double frontWindshield
+            = new Line2D.Double(r1, r2);
+      Line2D.Double roofTop
+            = new Line2D.Double(r2, r3);
+      Line2D.Double rearWindshield
+            = new Line2D.Double(r3, r4);
+      
+      g2.draw(body);
+      g2.draw(frontTire);
+      g2.draw(rearTire);
+      g2.draw(frontWindshield);
+      g2.draw(roofTop);
+      g2.draw(rearWindshield);
+   }
+   
+   
+}

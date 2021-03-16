@@ -1,0 +1,64 @@
+import javax.swing.*;
+import java.awt.*;
+import java.awt.event.*;
+
+public class View extends JFrame
+{
+   private final int SIZE = 1500;
+   private Grid g;
+   private JButton[][] myarray;
+   private JPanel gridPanel;
+   private JPanel goPanel;
+   private JButton goButton;
+   private Color[] colors = {Color.GREEN, Color.YELLOW, Color.ORANGE, Color.RED};
+
+   public View(Grid _g){
+      this.g = _g;
+      this.setLayout(new BorderLayout());
+      this.setSize(SIZE,SIZE);
+      this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+   
+      setUpGrid();
+      setUpGo();
+      this.setVisible(true);
+      this.setResizable(false);
+   }
+
+   private void setUpGrid()
+   {
+      gridPanel = new JPanel();
+      gridPanel.setLayout(new GridLayout(25,25));
+      myarray = new JButton[Grid.GRIDSIZE];
+      for (int i = 0; i < myarray.length; i++)
+      {
+         myarray[i] = new JButton();
+         myarray[i].setEnabled(false);
+         gridPanel.add(myarray[i]);
+      }
+      this.add(gridPanel, BorderLayout.CENTER);
+   }
+
+   private void setUpGo()
+   {
+      goButton = new JButton("GO");
+      goButton.addActionListener(new goButtonListener());
+      goPanel = new JPanel();
+      goPanel.add(new JPanel());
+      goPanel.add(goButton);
+      goPanel.add(new JPanel());
+      this.add(goPanel, BorderLayout.SOUTH);
+   }   
+
+   private class goButtonListener implements ActionListener
+   {
+      public void actionPerformed(ActionEvent e)
+      {
+         for (int i = 0; i < myarray.length; i++){ 
+            myarray[i].setOpaque(true);
+            myarray[i].setBorderPainted(false);
+            myarray[i].setBackground(colors[g.getColor(i)]);
+         }
+         
+      }
+   }
+}          

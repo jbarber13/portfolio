@@ -1,0 +1,13 @@
+/*
+ * Controller.java - Launches the View for the platform jump game
+ * @author Jake Barber
+ * @version 11/28/16
+ */
+public class Controller{
+
+   private View v;
+   public Controller(){
+      v = new View();
+      System.out.println("Controller");
+   }
+}
