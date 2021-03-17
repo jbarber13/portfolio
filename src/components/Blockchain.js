@@ -9,8 +9,8 @@ import maker from "../images/dapp_logos/maker.png"
 import uniswap from "../images/dapp_logos/uniswap.png"
 import synthetix from "../images/dapp_logos/synthetix.png"
 
-import Zoom from 'react-reveal/Zoom';
-import LightSpeed from 'react-reveal/LightSpeed'
+
+import Pulse from 'react-reveal/Pulse';
 
 
 const Blockchain = () => {
@@ -20,7 +20,7 @@ const Blockchain = () => {
             <h2>Blockchain</h2><br />
             <div className="blockchain-words">
 
-                <Zoom> 
+                <Pulse> 
                 <div className="blockchain-words-paragraph-right">
                 <a className="bimage" href="https://en.wikipedia.org/wiki/Blockchain" target="#_blank">
                         <img className="bimage" src={blockchain} alt="blockchain"></img>
@@ -30,9 +30,9 @@ const Blockchain = () => {
                     </p>
                 </div>
                 <br /><br />                
-                </Zoom> 
+                </Pulse> 
                 
-                <LightSpeed delay={400}>
+                <Pulse delay={400}>
                 <div className="blockchain-words-paragraph-left">
                     <a className="bimage" href="https://en.wikipedia.org/wiki/Cryptography" target="#_blank">
                         <img className="bimage" src={cryptography} alt="blockchain"></img>
@@ -42,10 +42,10 @@ const Blockchain = () => {
                     </p>
                 </div>
                 <br /><br />
-                </LightSpeed>
+                </Pulse>
                 
 
-                <Zoom delay={400}>
+                <Pulse delay={400}>
                 <div className="blockchain-words-paragraph-right">
                     <a className="bimage" href="https://en.wikipedia.org/wiki/Decentralization" target="#_blank">
                         <img className="bimage" src={decentralized} alt="blockchain"></img>
@@ -55,11 +55,11 @@ const Blockchain = () => {
                     </p>
                 </div>
                 <br /><br /><br />
-                </Zoom>        
+                </Pulse>        
 
 
 
-                <LightSpeed delay={400}>
+                <Pulse delay={400}>
                 <div className="blockchain-words-paragraph-left">
                     
                     <a className="bimage" href="https://ethereum.org/en/" target="#_blank">
@@ -73,11 +73,11 @@ const Blockchain = () => {
                     </p>
                 </div>
                 <br /><br /><br />
-                </LightSpeed>
+                </Pulse>
                 
 
 
-                <LightSpeed delay={400}>
+                <Pulse delay={400}>
                 <div>
                     <p className="blockchain-words-paragraph">
                         In order to take it upon myself to understand fully how to implement smart contracts on a public blockchain like Ethereum, I have developed and built a decentralized exchange. This program allows the fair exchange of value between untrusted parties wishing to exchange ether for a token of my own design: BarberBucks. The software includes a blockchain back end written in the Solidity programming language and a front end web application written in React JavaScript that uses Redux for state control. It is deployed via AWS Amplify. In the “Projects” section of this website, there is more information on how to interact with the application.
@@ -110,7 +110,7 @@ const Blockchain = () => {
                         </div>
                     </div>
                 </div>
-                </LightSpeed>
+                </Pulse>
                 
 
             </div>

@@ -1,5 +1,7 @@
 import React from "react"
 import Zoom from 'react-reveal/Zoom'
+import Pulse from 'react-reveal/Pulse';
+
 
 /**************LINKS**************/
 //BarberBucks
@@ -41,7 +43,7 @@ const Projects = () => {
             <h2>Projects</h2>
             <br />
 
-            <Zoom>
+            <Pulse>
                 <div className="links">
                     <h2>
                         <a className="text-link" href={BarberBucksDex} target="_blank" rel="noreferrer">BarberBucks DEX</a>
@@ -62,8 +64,8 @@ const Projects = () => {
                     <p>This will require a <a className="text-link" href="https://github.com/">GitHub</a> account, simply log in and paste your wallet address from metamask (Kovan test network) in the chat and you will be sent some test ETH.</p>
                     
                 </div>
-            </Zoom>
-            <Zoom>
+            </Pulse>
+            <Pulse>
                 <div className="links">
                     <h2>
                         <a className="text-link" href={awsLink} target="_blank" rel="noreferrer">Wild Rydes</a>
@@ -79,12 +81,14 @@ const Projects = () => {
                     , and <a className="text-link" href={dynamoDB} target="_blank" rel="noreferrer">database storage</a>, all powered by AWS.
                     </p>
                 </div>
-            </Zoom>
+            </Pulse>
 
 
             <div className="links">
-                <h2>Powershell Scripts</h2>
-                <p>These are PowerShell scripts I made and used in a previous position to automate changes to production Active Directory environments in a U.S. Government contracting role</p>
+                <Pulse>
+                    <h2>Powershell Scripts</h2>
+                    <p>These are PowerShell scripts I made and used in a previous position to automate changes to production Active Directory environments in a U.S. Government contracting role</p>
+                </Pulse>
                 <table class="table table-dark">
                     <thead>
                         <tr>
@@ -178,7 +182,7 @@ const Projects = () => {
 
                     </tbody>
                 </table>
-                <p>Below are some fun scripts I wrote for myself to in order to learn to use API data and text to speech in PowerShell</p>
+                <Pulse><p>Below are some fun scripts I wrote for myself to in order to learn to use API data and text to speech in PowerShell</p></Pulse>
                 <table class="table table-dark">
                     <thead>
                         <Zoom>
@@ -212,8 +216,11 @@ const Projects = () => {
 
 
             <div className="links">
-                <h2>Java Projects</h2>
-                <p>These are some small projects I wrote in Java while at University studying computer science</p>
+                <Pulse>
+                    <h2>Java Projects</h2>
+                    <p>These are some small projects I wrote in Java while at University studying computer science</p>
+                </Pulse>
+                
 
                 <table class="table table-dark">
                     <Zoom>
@@ -263,7 +270,6 @@ const Projects = () => {
                                 <td><a className="text-link" href={Palindrome} target="#_blank">Palindrome.zip</a></td>
                             </tr>
                         </Zoom>
-
                     </tbody>
                 </table>
 

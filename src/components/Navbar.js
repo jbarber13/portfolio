@@ -1,10 +1,15 @@
-import React from "react";
+import React, {forwardRef, useRef} from "react";
 import logo from "../images/logo.jpg"
 import { animateScroll as scroll} from 'react-scroll'
 
+// /<a  className="nav-link" onClick={() => scroll.scrollTo(0)}>Home</a >
+
+
+
+
 
 const Navbar = () => {
-
+    
     
     return (
         <nav className="navbar navbar-expand-lg navbar-dark bg-dark sticky-nav">
