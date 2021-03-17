@@ -34,6 +34,7 @@ h2{
 }
 
 
+
 /************NAVBAR - use rem instead of px for bootstrap*************/
 nav {
   z-index: 10; /*navbar on top of particles*/

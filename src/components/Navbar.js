@@ -1,7 +1,11 @@
 import React from "react";
 import logo from "../images/logo.jpg"
+import { animateScroll as scroll} from 'react-scroll'
+
 
 const Navbar = () => {
+
+    
     return (
         <nav className="navbar navbar-expand-lg navbar-dark bg-dark sticky-nav">
             <div className="container">
@@ -14,21 +18,23 @@ const Navbar = () => {
                 <div className="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul className="navbar-nav ml-auto">
                         <li className="nav-item active">
-                            <a className="nav-link" href="/">Home</a>
+                            <a  className="nav-link" onClick={() => scroll.scrollTo(0)}>Home</a >
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="#about">About Me</a>
+                            <a className="nav-link" onClick={() => scroll.scrollTo(950)}>About Me</a>
                         </li>    
                         <li className="nav-item">
-                            <a className="nav-link" href="#blockchain">Blockchain</a>
+                            <a className="nav-link" onClick={() => scroll.scrollTo(1800)}>Blockchain</a>
                         </li>   
                         <li className="nav-item">
-                            <a className="nav-link" href="#projects">Projects</a>
+                            <a className="nav-link" onClick={() => scroll.scrollTo(3775)}>Projects</a>
                         </li>          
                     </ul>                
-                </div>
+                </div>               
             </div>
         </nav>
+
+        
     )
 }
 
