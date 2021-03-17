@@ -1,29 +1,11 @@
-import React from "react";
+import React from "react"
+import Zoom from 'react-reveal/Zoom'
 
-//POWERSHELL
-import Add2Group from "../projects/powershell/AD_Scripts/Add2Group.ps1"
-import AddCarriageReturn from "../projects/powershell/AD_Scripts/AddCarriageReturn.ps1"
-import ALTaccountMaker from "../projects/powershell/AD_Scripts/ALTaccountMaker.ps1"
-import BulkDisable from "../projects/powershell/AD_Scripts/BulkDisable.ps1"
-import GetBitlockerRecoveryKeys from "../projects/powershell/AD_Scripts/Get-BitlockerRecoveryKeys.ps1"
-import NotInGroup from "../projects/powershell/AD_Scripts/NotInGroup.ps1"
-import Parse3 from "../projects/powershell/AD_Scripts/Parse3_Test.ps1"
-import ParseByEmail from "../projects/powershell/AD_Scripts/ParseByEmail.ps1"
-import ParseNames from "../projects/powershell/AD_Scripts/ParseNames.ps1"
-import btcChecker from "../projects/powershell/FunProjects/btcChecker.ps1"
-import text2speech from "../projects/powershell/FunProjects/text2speech.ps1"
-
-//JAVA ZIPs
-import FileReader from "../projects/Java/Zips/FileReader.zip"
-import InfectionSim from "../projects/Java/Zips/InfectionSim.zip"
-import ListTraverse from "../projects/Java/Zips/ListTraverse.zip"
-import Palindrome from "../projects/Java/Zips/Palindrome.zip"
-
-import Zoom from 'react-reveal/Zoom';
-
-
-const amplify = "https://aws.amazon.com/amplify/"
+/**************LINKS**************/
+//BarberBucks
 const BarberBucksDex = "https://barberbucks-dex.jake-barber.com/"
+const amplify = "https://aws.amazon.com/amplify/"
+//AWS
 const awsLink = "https://jake-barber-aws-serverless.s3.amazonaws.com/website/index.html"
 const awsTutorialLink = "https://aws.amazon.com/getting-started/hands-on/build-serverless-web-app-lambda-apigateway-s3-dynamodb-cognito/"
 const cognito = "https://aws.amazon.com/cognito/"
@@ -31,6 +13,25 @@ const lambda = "https://aws.amazon.com/lambda/"
 const dynamoDB = "https://aws.amazon.com/dynamodb/"
 const StaticS3 = "https://docs.aws.amazon.com/AmazonS3/latest/userguide/WebsiteHosting.html"
 const aws = "https://en.wikipedia.org/wiki/Amazon_Web_Services"
+//POWERSHELL - AD
+const Add2Group = "https://s3.amazonaws.com/jake-barber.com/projects/powershell/AD_Scripts/Add2Group.ps1"
+const AddCarriageReturn = "https://s3.amazonaws.com/jake-barber.com/projects/powershell/AD_Scripts/AddCarriageReturn.ps1"
+const ALTaccountMaker = "https://s3.amazonaws.com/jake-barber.com/projects/powershell/AD_Scripts/ALTaccountMaker.ps1"
+const BulkDisable = "https://s3.amazonaws.com/jake-barber.com/projects/powershell/AD_Scripts/AddCarriageReturn.ps1"
+const GetBitlockerRecoveryKeys = "https://s3.amazonaws.com/jake-barber.com/projects/powershell/AD_Scripts/Get-BitlockerRecoveryKeys.ps1"
+const NotInGroup = "https://s3.amazonaws.com/jake-barber.com/projects/powershell/AD_Scripts/NotInGroup.ps1"
+const Parse3 = "https://s3.amazonaws.com/jake-barber.com/projects/powershell/AD_Scripts/Parse3_Test.ps1"
+const ParseByEmail = "https://s3.amazonaws.com/jake-barber.com/projects/powershell/AD_Scripts/ParseByEmail.ps1"
+const ParseNames = "https://s3.amazonaws.com/jake-barber.com/projects/powershell/AD_Scripts/ParseNames.ps1"
+
+//POWERSHELL - API
+const btcChecker = "https://s3.amazonaws.com/jake-barber.com/projects/powershell/FunProjects/btcChecker.ps1"
+const text2speech = "https://s3.amazonaws.com/jake-barber.com/projects/powershell/FunProjects/text2speech.ps1"
+//JAVA
+const FileReader = "https://s3.amazonaws.com/jake-barber.com/projects/Java/Zips/FileReader.zip"
+const InfectionSim = "https://s3.amazonaws.com/jake-barber.com/projects/Java/Zips/InfectionSim.zip"
+const ListTraverse = "https://s3.amazonaws.com/jake-barber.com/projects/Java/Zips/ListTraverse.zip"
+const Palindrome = "https://s3.amazonaws.com/jake-barber.com/projects/Java/Zips/Palindrome.zip"
 
 const Projects = () => {
     return (
