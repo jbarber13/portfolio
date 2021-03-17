@@ -20,13 +20,17 @@ import ListTraverse from "../projects/Java/Zips/ListTraverse.zip"
 import Palindrome from "../projects/Java/Zips/Palindrome.zip"
 
 import Zoom from 'react-reveal/Zoom';
-import LightSpeed from 'react-reveal/LightSpeed'
 
 
-
-
-
-
+const amplify = "https://aws.amazon.com/amplify/"
+const BarberBucksDex = "https://barberbucks-dex.jake-barber.com/"
+const awsLink = "https://jake-barber-aws-serverless.s3.amazonaws.com/website/index.html"
+const awsTutorialLink = "https://aws.amazon.com/getting-started/hands-on/build-serverless-web-app-lambda-apigateway-s3-dynamodb-cognito/"
+const cognito = "https://aws.amazon.com/cognito/"
+const lambda = "https://aws.amazon.com/lambda/"
+const dynamoDB = "https://aws.amazon.com/dynamodb/"
+const StaticS3 = "https://docs.aws.amazon.com/AmazonS3/latest/userguide/WebsiteHosting.html"
+const aws = "https://en.wikipedia.org/wiki/Amazon_Web_Services"
 
 const Projects = () => {
     return (
@@ -36,15 +40,16 @@ const Projects = () => {
             <h2>Projects</h2>
             <br />
 
-            <LightSpeed>
+            <Zoom>
                 <div className="links">
                     <h2>
-                        <a className="text-link" href="https://barberbucks-dex.jake-barber.com/" target="_blank" rel="noreferrer">BarberBucks DEX</a>
+                        <a className="text-link" href={BarberBucksDex} target="_blank" rel="noreferrer">BarberBucks DEX</a>
                     </h2>
-                    <p><a className="text-link" href="https://barberbucks-dex.jake-barber.com/" target="_blank" rel="noreferrer">BarberBucks DEX</a> is a decentralized application deployed
-                 to the Kovan test network where you can trade test ETH for BarberBucks.
+                    <p><a className="text-link" href={BarberBucksDex} target="_blank" rel="noreferrer">BarberBucks DEX</a> is a decentralized application that is connected
+                 to the Kovan test network that allows users to trade test ETH for BarberBucks.
                 </p>
                     <p>No true value is exchanged via the app, it is for testing and demonstration purposes only.</p>
+                    <p>This application is hosted and deployed via <a className="text-link" href={amplify} target="_blank" rel="noreferrer">AWS Amplify</a></p>
                     <p>
                         This <a className="text-link" href="https://en.wikipedia.org/wiki/Decentralized_application" target="_blank" rel="noreferrer">DAPP</a> is
                     a <a className="text-link" href="https://en.wikipedia.org/wiki/Decentralized_exchange"> DEX</a> and
@@ -54,8 +59,26 @@ const Projects = () => {
                     <p>You will need to switch the network in MetaMask to the Kovan test network.</p>
                     <p>If you would like to receive some test ETH to interact with the app, please use the <a className="text-link" href="https://gitter.im/kovan-testnet/faucet" target="_blank" rel="noreferrer">faucet.</a></p>
                     <p>This will require a <a className="text-link" href="https://github.com/">GitHub</a> account, simply log in and paste your wallet address from metamask (Kovan test network) in the chat and you will be sent some test ETH.</p>
+                    
                 </div>
-            </LightSpeed>
+            </Zoom>
+            <Zoom>
+                <div className="links">
+                    <h2>
+                        <a className="text-link" href={awsLink} target="_blank" rel="noreferrer">Wild Rydes</a>
+                    </h2>
+                    <p><a className="text-link" href={awsLink} target="_blank" rel="noreferrer">Wild Rydes</a> is an application where users can create an account, log in, and then summon unicorns to any point on a global map
+                    </p>                    
+                    <p>This app was developed with the aid of a <a className="text-link" href={awsTutorialLink} target="_blank" rel="noreferrer">tutorial</a> provided
+                    by <a className="text-link" href={aws} target="_blank" rel="noreferrer">AWS</a> and was a great exercise for me to learn to use
+                    a serverless back end 
+                    for <a className="text-link" href={cognito} target="_blank" rel="noreferrer">user access control</a>
+                    , <a className="text-link" href={lambda} target="_blank" rel="noreferrer">serverless computation</a>
+                    , <a className="text-link" href={StaticS3} target="_blank" rel="noreferrer">static website hosting</a>
+                    , and <a className="text-link" href={dynamoDB} target="_blank" rel="noreferrer">database storage</a>, all powered by AWS.
+                    </p>
+                </div>
+            </Zoom>
 
 
             <div className="links">
