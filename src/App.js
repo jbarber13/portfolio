@@ -13,6 +13,7 @@ import Projects from "./components/Projects"
 function App() {
   return (
     <body data-spy="scroll" data-target=".navbar" data-offset="50">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
       <Particles 
         className="particles-canvas"
         params={{

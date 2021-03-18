@@ -183,7 +183,7 @@ nav ul li {
   .about-header{
     font-size: 1.5rem !important;
   }
-  
+    
 }
 
 /******************ABOUT********************/
@@ -249,12 +249,7 @@ nav ul li {
   font-weight: ligher;
 }
 
-.links > .box > h3 {
-  font-weight: bold;
-  font-size: 2rem;
-  letter-spacing: .15rem;
-  word-spacing: .4rem;
-}
+
 .links > .box > .resumeButton {
   display: flex;
   justify-content: center;
@@ -328,9 +323,21 @@ nav ul li {
   width: 75%;
   text-align: center;
   font-size: 1.5rem;
+  
 }
 .projects > .links >  h2 {
   color: lightgray;
+  max-width:75%;
+  margin: auto;
 }
+
+/*Shrink table text when screen is small*/
+@media(max-width: 1200px){
+  .table-shrink{
+    font-size: 1rem;
+  }
+}
+
+
 
 
