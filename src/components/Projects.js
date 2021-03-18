@@ -44,6 +44,7 @@ const FileReader = "https://s3.amazonaws.com/jake-barber.com/projects/Java/Zips/
 const InfectionSim = "https://s3.amazonaws.com/jake-barber.com/projects/Java/Zips/InfectionSim.zip"
 const ListTraverse = "https://s3.amazonaws.com/jake-barber.com/projects/Java/Zips/ListTraverse.zip"
 const Palindrome = "https://s3.amazonaws.com/jake-barber.com/projects/Java/Zips/Palindrome.zip"
+const Game = "https://s3.amazonaws.com/jake-barber.com/projects/Java/Zips/Game.zip"
 
 const Projects = () => {
     return (
@@ -327,6 +328,15 @@ const Projects = () => {
                                 <td>isPalindrome</td>
                                 <td>Checks if a given string is a palendrome</td>
                                 <td><a className="text-link" href={Palindrome} target="#_blank">Palindrome.zip</a></td>
+                            </tr>
+                        </Zoom>
+
+                        <Zoom>
+                            <tr>
+                                <th scope="row">5</th>
+                                <td>Game</td>
+                                <td>A simple game developed in Java, plays similarly to the infamous "Flappy Bird", but is a bit less pretty and more difficult...<br />Compile Game.java last!</td>
+                                <td><a className="text-link" href={Game} target="#_blank">Game.zip</a></td>
                             </tr>
                         </Zoom>
                     </tbody>
