@@ -226,7 +226,7 @@ const Projects = () => {
                             <tr>
                                 <th scope="row">8</th>
                                 <td>ParseByEmail</td>
-                                <td>Parse by EMAIL with john.doe@org.domain into UPN such as JADoe</td>
+                                <td>Parse by EMAIL with john.doe@domain.tld into UPN such as JADoe</td>
                                 <td><a className="text-link" href={ParseByEmail} target="#_blank">ParseByEmail.ps1</a></td>
                             </tr>
                         </Zoom>
