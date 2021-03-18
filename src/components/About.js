@@ -1,12 +1,15 @@
 import React from "react";
 import Zoom from 'react-reveal/Zoom';
+
+const raddy = "https://www.radford.edu/content/radfordcore/home.html"
+
 const About = () => {
     return (
         <div className="about" id="about" >
             <br /><br /><br />
 
             
-            <Zoom delay={400}>
+            <Zoom delay={200}>
             <div className="about-words">              
                 <h2>About Me</h2>
             </div>
@@ -17,14 +20,12 @@ const About = () => {
             </div>
             <div className="about-words">              
                 <p className="about-info">
-                    I have a Bachelors degree in Computer Science and Technology, with a concentration in Database Design, as well as an Undergraduate Information Security Certificate recognized by the NSA.  
+                    I have a Bachelors degree (Graduated 2018) from <a className="text-link" href={raddy} target="_blank" rel="noreferrer">Radford University</a> in Computer Science and Technology, with a concentration in Database Design, as well as an Undergraduate Information Security Certificate recognized by the NSA.  
                 </p>
             </div>
-            </Zoom>            
+            </Zoom>         
 
-            
-
-            <Zoom delay={400}>
+            <Zoom delay={200}>
             <div className="links">
                 <div>
                     <h1 className="about-header">Contact Information</h1>

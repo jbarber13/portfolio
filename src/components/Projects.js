@@ -7,6 +7,15 @@ import Pulse from 'react-reveal/Pulse';
 //BarberBucks
 const BarberBucksDex = "https://barberbucks-dex.jake-barber.com/"
 const amplify = "https://aws.amazon.com/amplify/"
+//PERSONAL WEBSITE
+const portfolio = "https://www.jake-barber.com/"
+const reactJS = "https://reactjs.org/"
+const github =  "https://github.com/jbarber13"
+const bootstrap = "https://getbootstrap.com/"
+//WITTY WEATHER
+const ww = "https://github.com/jbarber13/Witty-Weather.git"
+const raddy = "https://www.radford.edu/content/radfordcore/home.html"
+const studio = "https://developer.android.com/studio"
 //AWS
 const awsLink = "https://jake-barber-aws-serverless.s3.amazonaws.com/website/index.html"
 const awsTutorialLink = "https://aws.amazon.com/getting-started/hands-on/build-serverless-web-app-lambda-apigateway-s3-dynamodb-cognito/"
@@ -15,6 +24,7 @@ const lambda = "https://aws.amazon.com/lambda/"
 const dynamoDB = "https://aws.amazon.com/dynamodb/"
 const StaticS3 = "https://docs.aws.amazon.com/AmazonS3/latest/userguide/WebsiteHosting.html"
 const aws = "https://en.wikipedia.org/wiki/Amazon_Web_Services"
+const route53 = "https://aws.amazon.com/route53/"
 //POWERSHELL - AD
 const Add2Group = "https://s3.amazonaws.com/jake-barber.com/projects/powershell/AD_Scripts/Add2Group.ps1"
 const AddCarriageReturn = "https://s3.amazonaws.com/jake-barber.com/projects/powershell/AD_Scripts/AddCarriageReturn.ps1"
@@ -64,6 +74,56 @@ const Projects = () => {
                     
                 </div>
             </Pulse>
+            <Pulse>
+                <div className="links">
+                    <h2>
+                        <a className="text-link" href={portfolio} target="_blank" rel="noreferrer">About This Website</a>
+                    </h2>
+                    <p>
+                        I built this personal website to exercise my web development skills, and to demonstrate the projects I have made in my software development and IT career. Any and all future projects will be added here when possible.
+                    </p> 
+                    <p>
+                        This website was created using <a className="text-link" href={reactJS} target="_blank" rel="noreferrer">React JavaScript</a> and
+                        includes elements that utilize the <a className="text-link" href={bootstrap} target="_blank" rel="noreferrer">Bootstrap Framework.</a>
+                    </p>
+                    <p>
+                        This website was deployed using <a className="text-link" href={amplify} target="_blank" rel="noreferrer">AWS Amplify</a> and
+                        allows for continuous changes and updates through my <a className="text-link" href={github} target="_blank" rel="noreferrer">git repository.</a>
+                    </p>     
+                    <p>
+                        The domain is hosted on <a className="text-link" href={route53} target="_blank" rel="noreferrer">AWS Route 53.</a> 
+                    </p>               
+                    
+                </div>
+            </Pulse>
+
+            <Pulse>
+                <div className="links">
+                    <h2>
+                        Witty Weather
+                    </h2>
+                    <p>
+                        Witty Weather is an Android App that was developed by myself and a small team of students
+                        at <a className="text-link" href={raddy} target="_blank" rel="noreferrer">Radford University</a> in a Software Engineering course. 
+                    </p> 
+                    <p>
+                        This app has never been deployed to a public marketplace and there is no intention to do so, it was an exercise in learning to implement APIs into an Android App.
+                    </p>
+                    <p>
+                        The git repository can be found <a className="text-link" href={ww} target="_blank" rel="noreferrer">here</a>
+                    </p>
+                    <p>
+                        To get the build working correctly, clone a copy of this respository to your desktop and save all build files into a single folder. 
+                        Open <a className="text-link" href={studio} target="_blank" rel="noreferrer">android studio</a> and click file > open project and select the folder you put the build files in.
+                    </p>   
+                    <p>
+                        This app has not been tested in some time so there may be bugs...
+                    </p>  
+                                   
+                    
+                </div>
+            </Pulse>
+
             <Pulse>
                 <div className="links">
                     <h2>
