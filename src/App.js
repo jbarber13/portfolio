@@ -12,7 +12,7 @@ import Projects from "./components/Projects"
 
 function App() {
   return (
-    <>
+    <body data-spy="scroll" data-target=".navbar" data-offset="50">
       <Particles 
         className="particles-canvas"
         params={{
@@ -48,8 +48,7 @@ function App() {
       <About />
       <Blockchain />
       <Projects />
-      
-    </>  
+    </body>
   );
 }
 

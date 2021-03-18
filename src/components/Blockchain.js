@@ -112,7 +112,6 @@ const Blockchain = () => {
                 </div>
                 </Pulse>
                 
-
             </div>
         </div>
     )

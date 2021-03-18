@@ -39,7 +39,6 @@ const Projects = () => {
     return (
         <div className="projects" id="projects" >
             <br /><br /><br /><br /><br /><br />
-
             <h2>Projects</h2>
             <br />
 

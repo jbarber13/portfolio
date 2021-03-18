@@ -20,22 +20,13 @@ const About = () => {
                     I have a Bachelors degree in Computer Science and Technology, with a concentration in Database Design, as well as an Undergraduate Information Security Certificate recognized by the NSA.  
                 </p>
             </div>
-            </Zoom>
-            
-
-            
-            
-            
-
-            
-
+            </Zoom>       
             <Zoom delay={400}>
             <section className="links">
                 <div className="box">
                     <h3>Contact Information</h3>
                     <ul>
                     <li>Jake Barber</li>
-                    <li>1800 Killian Lakes Drive, #18106 <br /> Columbia SC, 29203</li>
                     <li>Mobile: (703) 635-8884</li>
                     <li>jabot999@gmail.com</li>
                     

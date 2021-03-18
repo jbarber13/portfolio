@@ -2,6 +2,9 @@
 :root{
   --btcOrange: #FF9900;
 }
+html {
+  scroll-behavior:smooth;
+}
 body{
     font-family: 'Ubuntu', sans-serif;
     position: relative;
@@ -10,7 +13,6 @@ body{
     background-repeat: repeat-y;
     background-position: center;
     height: 3840px;
-    z-index: -1;
 }
 body::-webkit-scrollbar {
   width: .2rem;  
@@ -37,7 +39,7 @@ h2{
 
 /************NAVBAR - use rem instead of px for bootstrap*************/
 nav {
-  z-index: 10; /*navbar on top of particles*/
+  z-index: 5; /*navbar on top of particles*/
   
 }
 
@@ -47,7 +49,8 @@ nav {
   border-radius: 50%;
 }
 .sticky-nav {
-  position: sticky !important;
+  position: fixed !important;
+  width:100%;
   top: 0;
 }
 .navbar-toggler{
@@ -181,13 +184,13 @@ nav ul li {
   color: lightgray;
   align-items: center;
   text-align: center;
-  max-width: 80%;
+  max-width: 75%;
   font-family: 'Ubuntu', sans-serif;
   font-weight: 500;
   font-size: 2rem;
 
   position: relative;
-  z-index: 3;
+  z-index: 2;
 
 }
 .text-link{
@@ -197,9 +200,10 @@ nav ul li {
 
 }
 .text-link:hover{  
-   transition: .2s ease-in-out;
+   transition: .5s ease-in-out;
    color: black;
-   background-color: lightgray;
+   font-weight: bolder;
+   background-color: var(--btcOrange);
 
 }
 .links {
@@ -209,7 +213,7 @@ nav ul li {
   padding: 2rem;
   background-color: black;
   position: relative;
-  z-index: 3;
+  z-index: 2;
   font-weight: ligher;
 }
 .box{
@@ -235,7 +239,7 @@ nav ul li {
 /******************BLOCKCHAIN********************/
 
 .blockchain-words{
-  WIDTH: 80%;
+  WIDTH: 75%;
   margin: 0 auto;
   font-family: 'Ubuntu', sans-serif;
   font-size: 1.5rem;
@@ -247,7 +251,7 @@ nav ul li {
   text-align: center;
 
   position: relative;
-  z-index: 3;
+  z-index: 2;
   
 }
 
@@ -291,9 +295,11 @@ nav ul li {
   font-family: 'Ubuntu', sans-serif;
   position: relative;
   font-weight: ligher;
+  z-index: 2;
+  position:relative;
 }
 .projects > .links {
-  width: 80%;
+  width: 75%;
   text-align: center;
   font-size: 1.5rem;
 }
