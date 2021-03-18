@@ -114,7 +114,7 @@ const Projects = () => {
                     </p>
                     <p>
                         To get the build working correctly, clone a copy of this respository to your desktop and save all build files into a single folder. 
-                        Open <a className="text-link" href={studio} target="_blank" rel="noreferrer">android studio</a> and click file > open project and select the folder you put the build files in.
+                        Open <a className="text-link" href={studio} target="_blank" rel="noreferrer">android studio</a> and click file/open project and select the folder you put the build files in.
                     </p>   
                     <p>
                         This app has not been tested in some time so there may be bugs...
