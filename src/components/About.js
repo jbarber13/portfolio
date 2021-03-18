@@ -2,8 +2,8 @@ import React from "react";
 import Zoom from 'react-reveal/Zoom';
 const About = () => {
     return (
-        <div className="component-wraper" id="about" >
-            <br /><br /><br /><br /><br /><br />
+        <div className="about" id="about" >
+            <br /><br /><br />
 
             
             <Zoom delay={400}>
@@ -20,22 +20,25 @@ const About = () => {
                     I have a Bachelors degree in Computer Science and Technology, with a concentration in Database Design, as well as an Undergraduate Information Security Certificate recognized by the NSA.  
                 </p>
             </div>
-            </Zoom>       
+            </Zoom>            
+
+            
+
             <Zoom delay={400}>
-            <section className="links">
-                <div className="box">
-                    <h3>Contact Information</h3>
-                    <ul>
-                    <li>Jake Barber</li>
-                    <li>Mobile: (703) 635-8884</li>
-                    <li>jabot999@gmail.com</li>
+            <div className="links">
+                <div>
+                    <h1 className="about-header">Contact Information</h1>
                     
-                    </ul>
+                        <p>Jake Barber</p>
+                        <p>Mobile: (703) 635-8884</p>
+                        <p>jabot999@gmail.com</p>
+                        <p><a className="text-link" href="https://www.jake-barber.com/" target="_blank" rel="noreferrer">Personal Website</a></p>                    
+                    
                     <div className="resumeButton">
                     <a href="https://drive.google.com/file/d/1XqDIdbJ-AOnlPS5ROrAxYglURUrxmAvU/view?usp=sharing" target="_blank" rel="noreferrer" className="contact">RÉsumÉ</a>
                     </div>
                 </div>       
-            </section>
+            </div>
             </Zoom>
             
 

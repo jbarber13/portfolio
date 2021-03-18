@@ -5,8 +5,8 @@ const Header = () => {
     return (
         <div className="component-wraper" id="header">
             <div className="main-info">
-                <h1>Welcome to my Website!</h1>
-                <p>This website is still under construction and is a work in progress....</p>
+                <h1>Welcome to my Personal Website!</h1>
+                <p>This website was built by me from scratch using React JavaScript, and will always be a work in progress...</p>
                 <Typed 
                     className="typed-text"
                     strings={["Blockchain", "Ethereum", "Solidity", "Web3", "React", "Truffle", "Ganache"]}
