@@ -107,9 +107,8 @@ nav ul li {
   
 }
 .about-words{
-  display: flex;
-  align-items: center;
   justify-content: center;
+  
 }
 .main-info{
   display: flex;
@@ -201,7 +200,19 @@ nav ul li {
   z-index: 2;
 }
 .about-words{
-  align-items: center;
+  WIDTH: 75%;
+  margin: 0 auto;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 1.5rem;
+  color: darkgray;
+  font-weight: lighter;
+  border: .15rem solid var(--btcOrange);
+  padding: 2rem;
+  background-color: black;
+  text-align: center;
+
+  position: relative;
+  z-index: 2;
 }
 .about > .links {
   WIDTH: 55%;
