@@ -13,6 +13,7 @@ const truffle = "https://www.trufflesuite.com/truffle"
 const smartContract = "https://en.wikipedia.org/wiki/Smart_contract"
 const solidity = "https://docs.soliditylang.org/en/v0.8.2/"
 const kovan = "https://kovan-testnet.github.io/website/"
+const infura = "https://infura.io/"
 //PERSONAL WEBSITE
 const portfolio = "https://www.jake-barber.com/"
 const reactJS = "https://reactjs.org/"
@@ -86,8 +87,11 @@ const Projects = () => {
                         and was rigorously tested and deployed using <a className="text-link" href={ganache}> ganache</a> and <a className="text-link" href={truffle}> truffle.</a>
                     </p>
                     <p>
+                        The connection to the blockchain is achieved using an API from <a className="text-link" href={infura}>Infura</a>.
+                    </p>
+                    <p>
                         This DAPP requires a browser extension: <a className="text-link" href="https://metamask.io/" target="_blank" rel="noreferrer">MetaMask</a> in
-                        order to identify users and their funds. 
+                        order to identify and authenticate users, funds, and transactions. 
                         This is an Ethereum wallet, and is the industry standard for interacting with decentralized applications at this time. 
                     </p>
                     <p>You will need to switch the network in MetaMask to the Kovan Testnet.</p>
