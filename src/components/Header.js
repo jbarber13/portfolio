@@ -10,7 +10,7 @@ const Header = () => {
                 <p>It may or may not scale to mobile device screen sizes at this time....</p>
                 <Typed 
                     className="typed-text"
-                    strings={["Blockchain", "Ethereum", "Solidity", "Web3", "React", "Truffle", "Ganache"]}
+                    strings={["Blockchain", "Ethereum", "Solidity", "Web3", "React", "Redux", "Truffle", "Ganache"]}
                     typeSpeed={80}
                     backSpeed={100}
                     loop                
