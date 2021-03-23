@@ -30,7 +30,7 @@ h2{
   text-align: center;
   color: lightgrey;
   font-family: 'Ubuntu', sans-serif;
-  font-size: 3rem !important;
+  font-size: 4rem !important;
   font-weight: bold !important;
   text-decoration: underline;
 }
@@ -56,11 +56,6 @@ nav {
 .navbar-toggler{
   z-index: 3;
 }
-/************NAVBAR ANIMATION*************/
-
-
-
-
 
 /************MENU LINKS*************/
 nav a.nav-link {
@@ -102,17 +97,15 @@ nav ul li {
 /************HEADER*************/
 .component-wraper {
   position: relative;  
-  height: 90vh;
-
-  
+  height: 90vh; 
 }
+
 .about-words{
   justify-content: center;
   
 }
 .main-info{
   display: flex;
-
   /*Put in absolute center of page*/
   position: absolute;
   top:0;
@@ -137,7 +130,7 @@ nav ul li {
 
 .typed-text{
   color: lightgray;
-  font-size: 2rem;
+  font-size: 3rem;
 }
 .contact {
   border: .0625rem solid var(--btcOrange);
@@ -163,10 +156,12 @@ nav ul li {
   z-index: 1;
 }
 
-@media(max-width: 768px){
-  .particles-canvas{ /*Don't show particles on small display*/
+@media(max-width: 768px){ /*adjust for small screens (moble)*/
+  /*
+  .particles-canvas{
     display: none;
   }
+  */  
   .main-info{
     font-size: 1.6rem !important;
   }
@@ -176,30 +171,41 @@ nav ul li {
   .navbar-brand{
     width: 7rem !important;
   }
-  .about{
-    font-size: 1rem !important;
-  }
+  .dappImage{
+    max-width: 3rem !important;
+  }  
   .about-words{
     font-size: 1rem !important;
-    max-width: 90% !important;
+    width: 100% !important;
   }
   .about > .links{
     font-size: 1rem !important;
+    width:80% !important;
   }
   .about-header{
     font-size: 1.5rem !important;
   }
   .blockchain-words{
     font-size: 1rem !important;
-    max-width: 90% !important;
+    width: 99% !important;
+  }
+  .bimage{
+    width: 18rem !important;
   }
   .projects > .links{
     font-size: 1rem !important;
-    max-width: 90% !important;  
+    width: 99% !important; 
   }
-
-  
-    
+  .links > h2{
+    font-size: 2.5rem !important;
+    padding: .5rem !important;
+  }   
+}
+/*Shrink table text when screen is small*/
+@media(max-width: 1200px){
+  .table-shrink{
+    font-size: .6rem;
+  }
 }
 
 /******************ABOUT********************/
@@ -359,12 +365,7 @@ nav ul li {
   margin: auto;
 }
 
-/*Shrink table text when screen is small*/
-@media(max-width: 1200px){
-  .table-shrink{
-    font-size: .6rem;
-  }
-}
+
 
 
 
