@@ -123,7 +123,7 @@ const Projects = () => {
                         , and thus falls into a category of applications known as <a className="text-link" href="https://en.wikipedia.org/wiki/Decentralized_application" target="_blank" rel="noreferrer">DAPP</a>s.                        
                     </p>
                     <p>
-                        The front end application was developed in <a className="text-link" href={reactJS}> React JavaScript</a> 
+                        The front end application was developed in <a className="text-link" href={reactJS}> React JavaScript</a> and uses react native state control.
                     </p>
                     <p>The front end application is hosted and deployed via <a className="text-link" href={amplify} target="_blank" rel="noreferrer">AWS Amplify</a></p>
 
