@@ -8,7 +8,7 @@ const Header = () => {
                 <br /><br /><br /><br /><br /><br /><br /><br />
                 <h1>Blockchain is the future!</h1>
                 <br />
-                <p>My name is Jake Barber, and I am an expierenced IT proffesional and software developer, specializing in blockchain technology.</p>
+                <p>My name is Jake Barber, and I am an expierenced Software Developer and IT Proffesional, specializing in blockchain technology.</p>
                 <p>Scroll down to learn more!</p>
                 <div className="typed">
                 <Typed 
