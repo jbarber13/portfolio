@@ -14,6 +14,8 @@ const smartContract = "https://en.wikipedia.org/wiki/Smart_contract"
 const solidity = "https://docs.soliditylang.org/en/v0.8.2/"
 const kovan = "https://kovan-testnet.github.io/website/"
 const infura = "https://infura.io/"
+//BarberBucks SWAP
+const BBFSwap = "https://barberbucks-swap.jake-barber.com"
 //PERSONAL WEBSITE
 const portfolio = "https://www.jake-barber.com/"
 const reactJS = "https://reactjs.org/"
@@ -65,7 +67,7 @@ const Projects = () => {
                     <h2>
                         <a className="text-link" href={BarberBucksDex} target="_blank" rel="noreferrer">BarberBucks DEX</a>
                     </h2>
-                    <p><a className="text-link" href={BarberBucksDex} target="_blank" rel="noreferrer">BarberBucks DEX</a> is a decentralized token exchange that allows users to trade test ETH for BarberBucks (BB).
+                    <p><a className="text-link" href={BarberBucksDex} target="_blank" rel="noreferrer">BarberBucks DEX</a> is a decentralized token exchange that allows users to trade test ETH for the Barber Buck token (BB).
                     </p>
                     <p>
                         This application is connected
@@ -79,6 +81,49 @@ const Projects = () => {
                     <p>
                         The front end application was developed in <a className="text-link" href={reactJS}> React JavaScript</a> and uses 
                         <a className="text-link" href={redux}> Redux</a> for state control.
+                    </p>
+                    <p>The front end application is hosted and deployed via <a className="text-link" href={amplify} target="_blank" rel="noreferrer">AWS Amplify</a></p>
+
+                    <p>
+                        The <a className="text-link" href={smartContract}> smart contract</a> for this DAPP was developed in <a className="text-link" href={solidity}> Solidity</a>, 
+                        and was rigorously tested and deployed using <a className="text-link" href={ganache}> ganache</a> and <a className="text-link" href={truffle}> truffle.</a>
+                    </p>
+                    <p>
+                        The connection to the blockchain is achieved using an API from <a className="text-link" href={infura}>Infura</a>.
+                    </p>
+                    <p>
+                        This DAPP requires a browser extension: <a className="text-link"  href="https://metamask.io/" target="_blank" rel="noreferrer">MetaMask</a> in
+                        order to identify and authenticate users, funds, and transactions. 
+                        This is an Ethereum wallet, and is the industry standard for interacting with decentralized applications at this time. 
+                    </p>
+                    <p>You will need to switch the network in MetaMask to the Kovan Testnet.</p>
+                    <p>If you would like to receive some test ETH to interact with the dapp, please use the <a className="text-link" href="https://gitter.im/kovan-testnet/faucet" target="_blank" rel="noreferrer">faucet.</a></p>
+                    <p>Simply log in with a valid <a className="text-link" id="barberbucks-swap" href="https://github.com/">GitHub</a> account and paste your wallet address from metamask (Kovan Testnet) in the chat and you will be sent some test ETH.</p>
+                    
+                </div>
+            </Pulse>
+            <Pulse>
+                <div className="links" >
+                    <h2>
+                        <a className="text-link" href={BBFSwap} target="_blank" rel="noreferrer">BarberBucks SWAP</a>
+                    </h2>
+                    <p>
+                        <a className="text-link" href={BBFSwap} target="_blank" rel="noreferrer">BarberBucks SWAP</a> is a decentralized token exchange that allows users to swap test ETH for BBF tokens at a fixed price in ETH.
+                    </p>
+                    <p>
+                        The token for this DAPP is separate from <a className="text-link" href={BarberBucksDex} target="_blank" rel="noreferrer">BarberBucks DEX</a> and is called Barber Buck Fixed, as the price is set to a fixed value in ETH
+                    </p>
+                    <p>
+                        This application is connected
+                        to the <a className="text-link" href={kovan} target="_blank" rel="noreferrer">Kovan Testnet</a>. Therefore
+                        no true value is exchanged via the application; it is for learning, testing, and demonstration purposes only.
+                    </p>                    
+                    <p>
+                        This application is a decentralized exchange, or a <a className="text-link" href="https://en.wikipedia.org/wiki/Decentralized_exchange"> DEX</a>
+                        , and thus falls into a category of applications known as <a className="text-link" href="https://en.wikipedia.org/wiki/Decentralized_application" target="_blank" rel="noreferrer">DAPP</a>s.                        
+                    </p>
+                    <p>
+                        The front end application was developed in <a className="text-link" href={reactJS}> React JavaScript</a> 
                     </p>
                     <p>The front end application is hosted and deployed via <a className="text-link" href={amplify} target="_blank" rel="noreferrer">AWS Amplify</a></p>
 
