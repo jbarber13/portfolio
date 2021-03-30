@@ -61,7 +61,7 @@ const Projects = () => {
             <br />
 
             <Pulse>
-                <div className="links">
+                <div className="links" id="barberbucks-dex">
                     <h2>
                         <a className="text-link" href={BarberBucksDex} target="_blank" rel="noreferrer">BarberBucks DEX</a>
                     </h2>
@@ -90,18 +90,18 @@ const Projects = () => {
                         The connection to the blockchain is achieved using an API from <a className="text-link" href={infura}>Infura</a>.
                     </p>
                     <p>
-                        This DAPP requires a browser extension: <a className="text-link" href="https://metamask.io/" target="_blank" rel="noreferrer">MetaMask</a> in
+                        This DAPP requires a browser extension: <a className="text-link"  href="https://metamask.io/" target="_blank" rel="noreferrer">MetaMask</a> in
                         order to identify and authenticate users, funds, and transactions. 
                         This is an Ethereum wallet, and is the industry standard for interacting with decentralized applications at this time. 
                     </p>
                     <p>You will need to switch the network in MetaMask to the Kovan Testnet.</p>
                     <p>If you would like to receive some test ETH to interact with the dapp, please use the <a className="text-link" href="https://gitter.im/kovan-testnet/faucet" target="_blank" rel="noreferrer">faucet.</a></p>
-                    <p>Simply log in with a valid <a className="text-link" href="https://github.com/">GitHub</a> account and paste your wallet address from metamask (Kovan Testnet) in the chat and you will be sent some test ETH.</p>
+                    <p>Simply log in with a valid <a className="text-link" id="about-website" href="https://github.com/">GitHub</a> account and paste your wallet address from metamask (Kovan Testnet) in the chat and you will be sent some test ETH.</p>
                     
                 </div>
             </Pulse>
             <Pulse>
-                <div className="links">
+                <div className="links"  >
                     <h2>
                         <a className="text-link" href={portfolio} target="_blank" rel="noreferrer">About This Website</a>
                     </h2>
@@ -114,7 +114,7 @@ const Projects = () => {
                     </p>
                     <p>
                         This website was deployed using <a className="text-link" href={amplify} target="_blank" rel="noreferrer">AWS Amplify</a> and
-                        allows for continuous changes and updates through my <a className="text-link" href={github} target="_blank" rel="noreferrer">git repository.</a>
+                        allows for continuous changes and updates through my <a className="text-link" id="WittyWeather" href={github} target="_blank" rel="noreferrer">git repository.</a>
                     </p>     
                     <p>
                         The domain is hosted on <a className="text-link" href={route53} target="_blank" rel="noreferrer">AWS Route 53.</a> 
@@ -140,7 +140,7 @@ const Projects = () => {
                     </p>
                     <p>
                         To get the build working correctly, clone a copy of this respository to your desktop and save all build files into a single folder. 
-                        Open <a className="text-link" href={studio} target="_blank" rel="noreferrer">android studio</a> and click file/open project and select the folder you put the build files in.
+                        Open <a className="text-link" id="wildrydes" href={studio} target="_blank" rel="noreferrer">android studio</a> and click file/open project and select the folder you put the build files in.
                     </p>   
                     <p>
                         This app has not been tested in some time so there may be bugs...
@@ -163,13 +163,13 @@ const Projects = () => {
                     for <a className="text-link" href={cognito} target="_blank" rel="noreferrer">user access control</a>
                     , <a className="text-link" href={lambda} target="_blank" rel="noreferrer">serverless computation</a>
                     , <a className="text-link" href={StaticS3} target="_blank" rel="noreferrer">static website hosting</a>
-                    , and <a className="text-link" href={dynamoDB} target="_blank" rel="noreferrer">database storage</a>, all powered by AWS.
+                    , and <a className="text-link" id="powershell" href={dynamoDB} target="_blank" rel="noreferrer">database storage</a>, all powered by AWS.
                     </p>
                 </div>
             </Pulse>
 
 
-            <div className="links">
+            <div className="links" >
                 <Pulse>
                     <h2>Powershell Scripts</h2>
                     <p>These are PowerShell scripts I made and used in a previous position to automate changes to production Active Directory environments in a U.S. Government contracting role</p>
@@ -284,7 +284,7 @@ const Projects = () => {
                             <tr>
                                 <td>text2speech</td>
                                 <td>A simple script I wrote to learn how to use text to speech and get API data</td>
-                                <td><a className="text-link" href={text2speech} target="#_blank">text2speech.ps1</a></td>
+                                <td><a className="text-link" id="java" href={text2speech} target="#_blank">text2speech.ps1</a></td>
                             </tr>
                         </tbody>
                     </Zoom>
