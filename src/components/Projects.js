@@ -12,7 +12,7 @@ const ganache = "https://www.trufflesuite.com/ganache"
 const truffle = "https://www.trufflesuite.com/truffle"
 const smartContract = "https://en.wikipedia.org/wiki/Smart_contract"
 const solidity = "https://docs.soliditylang.org/en/v0.8.2/"
-const kovan = "https://kovan-testnet.github.io/website/"
+const kovan = "https://faucet.kovan.network/"
 const infura = "https://infura.io/"
 //BarberBucks SWAP
 const BBFSwap = "https://barberbucks-swap.jake-barber.com"

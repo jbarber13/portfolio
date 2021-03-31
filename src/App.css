@@ -157,11 +157,11 @@ nav ul li {
 }
 
 @media(max-width: 768px){ /*adjust for small screens (moble)*/
-  /*
+  
   .particles-canvas{
     display: none;
   }
-  */  
+  
   .main-info{
     font-size: 1.6rem !important;
   }
