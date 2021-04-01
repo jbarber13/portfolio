@@ -6,6 +6,7 @@ import Pulse from 'react-reveal/Pulse';
 /**************LINKS**************/
 //BarberBucks
 const BarberBucksDex = "https://barberbucks-dex.jake-barber.com/"
+const BBDGIT = "https://github.com/jbarber13/barberbucks-dex"
 const amplify = "https://aws.amazon.com/amplify/"
 const redux = "https://redux.js.org/"
 const ganache = "https://www.trufflesuite.com/ganache"
@@ -16,6 +17,7 @@ const kovan = "https://faucet.kovan.network/"
 const infura = "https://infura.io/"
 //BarberBucks SWAP
 const BBFSwap = "https://barberbucks-swap.jake-barber.com"
+const BBFSwapGIT = "https://github.com/jbarber13/BarberBucks_SWAP"
 //PERSONAL WEBSITE
 const portfolio = "https://www.jake-barber.com/"
 const reactJS = "https://reactjs.org/"
@@ -98,8 +100,10 @@ const Projects = () => {
                     </p>
                     <p>You will need to switch the network in MetaMask to the Kovan Testnet.</p>
                     <p>If you would like to receive some test ETH to interact with the dapp, please use the <a className="text-link" href="https://gitter.im/kovan-testnet/faucet" target="_blank" rel="noreferrer">faucet.</a></p>
-                    <p>Simply log in with a valid <a className="text-link" id="barberbucks-swap" href="https://github.com/">GitHub</a> account and paste your wallet address from metamask (Kovan Testnet) in the chat and you will be sent some test ETH.</p>
-                    
+                    <p>Simply log in with a valid <a className="text-link"  href="https://github.com/">GitHub</a> account and paste your wallet address from metamask (Kovan Testnet) in the chat and you will be sent some test ETH.</p>
+                    <p>
+                        The source code is available <a className="text-link" id="barberbucks-swap" href={BBDGIT}>here.</a>
+                    </p>
                 </div>
             </Pulse>
             <Pulse>
@@ -142,7 +146,9 @@ const Projects = () => {
                     <p>You will need to switch the network in MetaMask to the Kovan Testnet.</p>
                     <p>If you would like to receive some test ETH to interact with the dapp, please use the <a className="text-link" href="https://gitter.im/kovan-testnet/faucet" target="_blank" rel="noreferrer">faucet.</a></p>
                     <p>Simply log in with a valid <a className="text-link" id="about-website" href="https://github.com/">GitHub</a> account and paste your wallet address from metamask (Kovan Testnet) in the chat and you will be sent some test ETH.</p>
-                    
+                    <p>
+                        The source code is available <a className="text-link" id="barberbucks-swap" href={BBFSwapGIT}>here.</a>
+                    </p>
                 </div>
             </Pulse>
             <Pulse>

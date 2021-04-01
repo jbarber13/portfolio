@@ -13,7 +13,7 @@ const About = () => {
             <h2>About Me</h2>
                 <div className="about-words">       
                     <p className="about-info" >
-                        My name is <a className="text-link" href="https://linkedin.com/in/jakebarber1996" target="_blank" rel="noreferrer">Jake Barber</a> and I am an aspiring software developer, hoping to specialize in blockchain development on Ethereum.
+                        My name is <a className="text-link" href="https://linkedin.com/in/jakebarber1996" target="_blank" rel="noreferrer">Jake Barber</a> and I am an expierenced Software Developer and IT Proffesional, specializing in blockchain technology.
                     </p>
                     <p className="about-info" id="contact-info">
                         I graduated from <a className="text-link" href={raddy} target="_blank" rel="noreferrer">Radford University</a> in 2018 with a Bachelor of Science Degree in Computer Science and Technology, with a concentration in Database Design, as well as an Undergraduate Information Security Certificate recognized by the NSA.
