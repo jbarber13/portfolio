@@ -18,10 +18,16 @@ const infura = "https://infura.io/"
 //BarberBucks SWAP
 const BBFSwap = "https://barberbucks-swap.jake-barber.com"
 const BBFSwapGIT = "https://github.com/jbarber13/BarberBucks_SWAP"
+const rinkeby = "https://www.rinkeby.io/"
+//DSM
+const dsm = "https://dsm.jake-barber.com"
+const ipfs = "https://ipfs.io/"
+const rFaucet = "https://faucet.rinkeby.io/"
+const DSM_Git = "https://github.com/jbarber13/DSM/tree/master"
 //PERSONAL WEBSITE
 const portfolio = "https://www.jake-barber.com/"
 const reactJS = "https://reactjs.org/"
-const github =  "https://github.com/jbarber13"
+const github = "https://github.com/jbarber13"
 const bootstrap = "https://getbootstrap.com/"
 //WITTY WEATHER
 const ww = "https://github.com/jbarber13/Witty-Weather.git"
@@ -75,32 +81,32 @@ const Projects = () => {
                         This application is connected
                         to the <a className="text-link" href={kovan} target="_blank" rel="noreferrer">Kovan Testnet</a>. Therefore
                         no true value is exchanged via the application; it is for learning, testing, and demonstration purposes only.
-                    </p>                    
-                    <p>
-                        This application is a decentralized exchange, or a <a className="text-link" href="https://en.wikipedia.org/wiki/Decentralized_exchange"> DEX</a>
-                        , and thus falls into a category of applications known as <a className="text-link" href="https://en.wikipedia.org/wiki/Decentralized_application" target="_blank" rel="noreferrer">DAPP</a>s.                        
                     </p>
                     <p>
-                        The front end application was developed in <a className="text-link" href={reactJS}> React JavaScript</a> and uses 
+                        This application is a decentralized exchange, or a <a className="text-link" href="https://en.wikipedia.org/wiki/Decentralized_exchange"> DEX</a>
+                        , and thus falls into a category of applications known as <a className="text-link" href="https://en.wikipedia.org/wiki/Decentralized_application" target="_blank" rel="noreferrer">DAPP</a>s.
+                    </p>
+                    <p>
+                        The front end application was developed in <a className="text-link" href={reactJS}> React JavaScript</a> and uses
                         <a className="text-link" href={redux}> Redux</a> for state control.
                     </p>
                     <p>The front end application is hosted and deployed via <a className="text-link" href={amplify} target="_blank" rel="noreferrer">AWS Amplify</a></p>
 
                     <p>
-                        The <a className="text-link" href={smartContract}> smart contract</a> for this DAPP was developed in <a className="text-link" href={solidity}> Solidity</a>, 
+                        The <a className="text-link" href={smartContract}> smart contract</a> for this DAPP was developed in <a className="text-link" href={solidity}> Solidity</a>,
                         and was rigorously tested and deployed using <a className="text-link" href={ganache}> ganache</a> and <a className="text-link" href={truffle}> truffle.</a>
                     </p>
                     <p>
                         The connection to the blockchain is achieved using an API from <a className="text-link" href={infura}>Infura</a>.
                     </p>
                     <p>
-                        This DAPP requires a browser extension: <a className="text-link"  href="https://metamask.io/" target="_blank" rel="noreferrer">MetaMask</a> in
-                        order to identify and authenticate users, funds, and transactions. 
-                        This is an Ethereum wallet, and is the industry standard for interacting with decentralized applications at this time. 
+                        This DAPP requires a browser extension: <a className="text-link" href="https://metamask.io/" target="_blank" rel="noreferrer">MetaMask</a> in
+                        order to identify and authenticate users, funds, and transactions.
+                        This is an Ethereum wallet, and is the industry standard for interacting with decentralized applications at this time.
                     </p>
                     <p>You will need to switch the network in MetaMask to the Kovan Testnet.</p>
                     <p>If you would like to receive some test ETH to interact with the dapp, please use the <a className="text-link" href="https://gitter.im/kovan-testnet/faucet" target="_blank" rel="noreferrer">faucet.</a></p>
-                    <p>Simply log in with a valid <a className="text-link"  href="https://github.com/">GitHub</a> account and paste your wallet address from metamask (Kovan Testnet) in the chat and you will be sent some test ETH.</p>
+                    <p>Simply log in with a valid <a className="text-link" href="https://github.com/">GitHub</a> account and paste your wallet address from metamask (Kovan Testnet) in the chat and you will be sent some test ETH.</p>
                     <p>
                         The source code is available <a className="text-link" id="barberbucks-swap" href={BBDGIT}>here.</a>
                     </p>
@@ -121,10 +127,10 @@ const Projects = () => {
                         This application is connected
                         to the <a className="text-link" href={kovan} target="_blank" rel="noreferrer">Kovan Testnet</a>. Therefore
                         no true value is exchanged via the application; it is for learning, testing, and demonstration purposes only.
-                    </p>                    
+                    </p>
                     <p>
                         This application is a decentralized exchange, or a <a className="text-link" href="https://en.wikipedia.org/wiki/Decentralized_exchange"> DEX</a>
-                        , and thus falls into a category of applications known as <a className="text-link" href="https://en.wikipedia.org/wiki/Decentralized_application" target="_blank" rel="noreferrer">DAPP</a>s.                        
+                        , and thus falls into a category of applications known as <a className="text-link" href="https://en.wikipedia.org/wiki/Decentralized_application" target="_blank" rel="noreferrer">DAPP</a>s.
                     </p>
                     <p>
                         The front end application was developed in <a className="text-link" href={reactJS}> React JavaScript</a> and uses react native state control.
@@ -132,25 +138,67 @@ const Projects = () => {
                     <p>The front end application is hosted and deployed via <a className="text-link" href={amplify} target="_blank" rel="noreferrer">AWS Amplify</a></p>
 
                     <p>
-                        The <a className="text-link" href={smartContract}> smart contract</a> for this DAPP was developed in <a className="text-link" href={solidity}> Solidity</a>, 
+                        The <a className="text-link" href={smartContract}> smart contract</a> for this DAPP was developed in <a className="text-link" href={solidity}> Solidity</a>,
                         and was rigorously tested and deployed using <a className="text-link" href={ganache}> ganache</a> and <a className="text-link" href={truffle}> truffle.</a>
                     </p>
                     <p>
                         The connection to the blockchain is achieved using an API from <a className="text-link" href={infura}>Infura</a>.
                     </p>
                     <p>
-                        This DAPP requires a browser extension: <a className="text-link"  href="https://metamask.io/" target="_blank" rel="noreferrer">MetaMask</a> in
-                        order to identify and authenticate users, funds, and transactions. 
-                        This is an Ethereum wallet, and is the industry standard for interacting with decentralized applications at this time. 
+                        This DAPP requires a browser extension: <a className="text-link" href="https://metamask.io/" target="_blank" rel="noreferrer">MetaMask</a> in
+                        order to identify and authenticate users, funds, and transactions.
+                        This is an Ethereum wallet, and is the industry standard for interacting with decentralized applications at this time.
                     </p>
                     <p>You will need to switch the network in MetaMask to the Kovan Testnet.</p>
                     <p>If you would like to receive some test ETH to interact with the dapp, please use the <a className="text-link" href="https://gitter.im/kovan-testnet/faucet" target="_blank" rel="noreferrer">faucet.</a></p>
-                    <p>Simply log in with a valid <a className="text-link" id="about-website" href="https://github.com/">GitHub</a> account and paste your wallet address from metamask (Kovan Testnet) in the chat and you will be sent some test ETH.</p>
                     <p>
-                        The source code is available <a className="text-link" id="barberbucks-swap" href={BBFSwapGIT}>here.</a>
+                        The source code is available <a className="text-link" id="DSM" href={BBFSwapGIT}>here.</a>
                     </p>
                 </div>
             </Pulse>
+
+            <Pulse>
+                <div className="links" >
+                    <h2>
+                        <a className="text-link" href={dsm} target="_blank" rel="noreferrer">Decentralized Social Media</a> 
+                    </h2>
+                    <p>
+                        <a className="text-link" href={dsm} target="_blank" rel="noreferrer">Decentralized Social Media (DSM)</a> is a decentralized social media platform that uses a users blockchian address to authenticate rather than a traditional login, and runs and stores images in a decentralzied fashion.
+                    </p>
+                    <p>
+                        This application requires a browser extension: <a className="text-link" href="https://metamask.io/" target="_blank" rel="noreferrer">MetaMask</a> in
+                        order to connect to the blockchain, and thus to retreive the images stored there, and to allow the user to 'log in'. 
+                        This is an Ethereum wallet, and is the industry standard for interacting with decentralized applications at this time.
+                    </p>
+                    <p>
+                        This application is connected
+                        to the <a className="text-link" href={rinkeby} target="_blank" rel="noreferrer">Rinkeby Testnet</a>. Therefore
+                        no true value is required to use the application; it is for learning, testing, and demonstration purposes only.
+                    </p>
+                    <p>Thusly, the network in MetaMask will need to be switched to the Rinkeby Testnet.</p>
+                    
+                    <p>
+                        Images are hosted using <a className="text-link" href={ipfs} target="_blank" rel="noreferrer">IPFS</a>, which is a distributed file hosting protocol. 
+                    </p>
+                    <p>
+                        Once images are stored on IPFS, a hash value is returned to represent that image, which is then stored on the <a className="text-link" href={smartContract}> smart contract</a> for this project.
+                    </p>
+                    <p>
+                        As always, the smart contract was developed in <a className="text-link" href={solidity}> Solidity</a>,
+                        and was rigorously tested and deployed using <a className="text-link" href={ganache}> ganache</a> and <a className="text-link" href={truffle}> truffle.</a>
+                    </p>
+                    
+                    <p>If you would like to receive some test ETH to interact with the dapp, please use the <a className="text-link" href={rFaucet} target="_blank" rel="noreferrer">faucet.</a></p>
+                    <p>
+                        The source code is available <a className="text-link" id="about-website" href={DSM_Git}>here.</a>
+                    </p>
+                </div>
+            </Pulse>
+
+
+
+
+
             <Pulse>
                 <div className="links"  >
                     <h2>
@@ -158,7 +206,7 @@ const Projects = () => {
                     </h2>
                     <p>
                         I built this personal website to exercise my web development skills, and to demonstrate the projects I have made in my software development and IT career. Any and all future projects will be added here when possible.
-                    </p> 
+                    </p>
                     <p>
                         This website was created using <a className="text-link" href={reactJS} target="_blank" rel="noreferrer">React JavaScript</a> and
                         includes elements that utilize the <a className="text-link" href={bootstrap} target="_blank" rel="noreferrer">Bootstrap Framework.</a>
@@ -166,11 +214,11 @@ const Projects = () => {
                     <p>
                         This website was deployed using <a className="text-link" href={amplify} target="_blank" rel="noreferrer">AWS Amplify</a> and
                         allows for continuous changes and updates through my <a className="text-link" id="WittyWeather" href={github} target="_blank" rel="noreferrer">git repository.</a>
-                    </p>     
+                    </p>
                     <p>
-                        The domain is hosted on <a className="text-link" href={route53} target="_blank" rel="noreferrer">AWS Route 53.</a> 
-                    </p>               
-                    
+                        The domain is hosted on <a className="text-link" href={route53} target="_blank" rel="noreferrer">AWS Route 53.</a>
+                    </p>
+
                 </div>
             </Pulse>
 
@@ -181,8 +229,8 @@ const Projects = () => {
                     </h2>
                     <p>
                         Witty Weather is an Android App that was developed by myself and a small team of students
-                        at <a className="text-link" href={raddy} target="_blank" rel="noreferrer">Radford University</a> in a Software Engineering course. 
-                    </p> 
+                        at <a className="text-link" href={raddy} target="_blank" rel="noreferrer">Radford University</a> in a Software Engineering course.
+                    </p>
                     <p>
                         This app has never been deployed to a public marketplace and there is no intention to do so, it was an exercise in learning to implement APIs into an Android App.
                     </p>
@@ -190,14 +238,14 @@ const Projects = () => {
                         The git repository can be found <a className="text-link" href={ww} target="_blank" rel="noreferrer">here</a>
                     </p>
                     <p>
-                        To get the build working correctly, clone a copy of this respository to your desktop and save all build files into a single folder. 
+                        To get the build working correctly, clone a copy of this respository to your desktop and save all build files into a single folder.
                         Open <a className="text-link" id="wildrydes" href={studio} target="_blank" rel="noreferrer">android studio</a> and click file/open project and select the folder you put the build files in.
-                    </p>   
+                    </p>
                     <p>
                         This app has not been tested in some time so there may be bugs...
-                    </p>  
-                                   
-                    
+                    </p>
+
+
                 </div>
             </Pulse>
 
@@ -207,10 +255,10 @@ const Projects = () => {
                         <a className="text-link" href={awsLink} target="_blank" rel="noreferrer">Wild Rydes</a>
                     </h2>
                     <p><a className="text-link" href={awsLink} target="_blank" rel="noreferrer">Wild Rydes</a> is an application where users can create an account, log in, and then summon unicorns to any point on a global map
-                    </p>                    
+                    </p>
                     <p>This app was developed with the aid of a <a className="text-link" href={awsTutorialLink} target="_blank" rel="noreferrer">tutorial</a> provided
                     by <a className="text-link" href={aws} target="_blank" rel="noreferrer">AWS</a> and was a great exercise for me to learn to use
-                    a serverless back end 
+                    a serverless back end
                     for <a className="text-link" href={cognito} target="_blank" rel="noreferrer">user access control</a>
                     , <a className="text-link" href={lambda} target="_blank" rel="noreferrer">serverless computation</a>
                     , <a className="text-link" href={StaticS3} target="_blank" rel="noreferrer">static website hosting</a>
@@ -226,120 +274,120 @@ const Projects = () => {
                     <p>These are PowerShell scripts I made and used in a previous position to automate changes to production Active Directory environments in a U.S. Government contracting role</p>
                 </Pulse>
                 <div className="table-shrink">
-                    <table className="table table-dark table-responsive">                        
-                    <thead>
-                        <Zoom>
-                        <tr>
-                            <th scope="col">Project</th>
-                            <th scope="col">Description</th>
-                            <th scope="col">Link</th>
-                        </tr>
-                        </Zoom> 
-                    </thead>
-                    <tbody>
-                        <Zoom>
-                            <tr>
-                                <td>Add2Group</td>
-                                <td>Adds Active Directory users to a group in bulk, needs text file of UPNs in the same directory</td>
-                                <td><a className="text-link" href={Add2Group} target="#_blank">Add2Group.ps1</a></td>
-                            </tr>
-                        </Zoom>
+                    <table className="table table-dark table-responsive">
+                        <thead>
+                            <Zoom>
+                                <tr>
+                                    <th scope="col">Project</th>
+                                    <th scope="col">Description</th>
+                                    <th scope="col">Link</th>
+                                </tr>
+                            </Zoom>
+                        </thead>
+                        <tbody>
+                            <Zoom>
+                                <tr>
+                                    <td>Add2Group</td>
+                                    <td>Adds Active Directory users to a group in bulk, needs text file of UPNs in the same directory</td>
+                                    <td><a className="text-link" href={Add2Group} target="#_blank">Add2Group.ps1</a></td>
+                                </tr>
+                            </Zoom>
 
-                        <Zoom>
-                            <tr>
-                                <td>AddCarriageReturn</td>
-                                <td>Add carriage return after ';', usefull for formatting text</td>
-                                <td><a className="text-link" href={AddCarriageReturn} target="#_blank">AddCarriageReturn.ps1</a></td>
-                            </tr>
-                        </Zoom>
+                            <Zoom>
+                                <tr>
+                                    <td>AddCarriageReturn</td>
+                                    <td>Add carriage return after ';', usefull for formatting text</td>
+                                    <td><a className="text-link" href={AddCarriageReturn} target="#_blank">AddCarriageReturn.ps1</a></td>
+                                </tr>
+                            </Zoom>
 
-                        <Zoom>
-                            <tr>
-                                <td>ALTaccountMaker</td>
-                                <td>Used to quickly make alternate accounts in AD, with the naming format prefix.UPN, and copies X509 certificates from the original account</td>
-                                <td><a className="text-link" href={ALTaccountMaker} target="#_blank">ALTaccountMaker.ps1</a></td>
-                            </tr>
-                        </Zoom>
+                            <Zoom>
+                                <tr>
+                                    <td>ALTaccountMaker</td>
+                                    <td>Used to quickly make alternate accounts in AD, with the naming format prefix.UPN, and copies X509 certificates from the original account</td>
+                                    <td><a className="text-link" href={ALTaccountMaker} target="#_blank">ALTaccountMaker.ps1</a></td>
+                                </tr>
+                            </Zoom>
 
-                        <Zoom>
-                            <tr>
-                                <td>BulkDisable</td>
-                                <td>Used to disable AD accounts in bulk, needs text file of UPNs in the same directory</td>
-                                <td><a className="text-link" href={BulkDisable} target="#_blank">BulkDisable.ps1</a></td>
-                            </tr>
-                        </Zoom>
+                            <Zoom>
+                                <tr>
+                                    <td>BulkDisable</td>
+                                    <td>Used to disable AD accounts in bulk, needs text file of UPNs in the same directory</td>
+                                    <td><a className="text-link" href={BulkDisable} target="#_blank">BulkDisable.ps1</a></td>
+                                </tr>
+                            </Zoom>
 
-                        <Zoom>
-                            <tr>
-                                <td>Get-BitlockerRecoveryKeys</td>
-                                <td>Generate a list of Bitlocker recovery keys and display them at the command prompt</td>
-                                <td><a className="text-link" href={GetBitlockerRecoveryKeys} target="#_blank">Get-BitlockerRecoveryKeys.ps1</a></td>
-                            </tr>
-                        </Zoom>
+                            <Zoom>
+                                <tr>
+                                    <td>Get-BitlockerRecoveryKeys</td>
+                                    <td>Generate a list of Bitlocker recovery keys and display them at the command prompt</td>
+                                    <td><a className="text-link" href={GetBitlockerRecoveryKeys} target="#_blank">Get-BitlockerRecoveryKeys.ps1</a></td>
+                                </tr>
+                            </Zoom>
 
-                        <Zoom>
-                            <tr>
-                                <td>NotInGroup</td>
-                                <td>Takes a list of uers and determines if they are in a given group in AD</td>
-                                <td><a className="text-link" href={NotInGroup} target="#_blank">NotInGroup.ps1</a></td>
-                            </tr>
-                        </Zoom>
+                            <Zoom>
+                                <tr>
+                                    <td>NotInGroup</td>
+                                    <td>Takes a list of uers and determines if they are in a given group in AD</td>
+                                    <td><a className="text-link" href={NotInGroup} target="#_blank">NotInGroup.ps1</a></td>
+                                </tr>
+                            </Zoom>
 
-                        <Zoom>
-                            <tr>
-                                <td>Parse3_Test</td>
-                                <td>This is intended to parse an input format of John Doe or Doe, John A. into a UPN such as JADoe, still a work in progress...</td>
-                                <td><a className="text-link" href={Parse3} target="#_blank">Parse3_Test.ps1</a></td>
-                            </tr>
-                        </Zoom>
+                            <Zoom>
+                                <tr>
+                                    <td>Parse3_Test</td>
+                                    <td>This is intended to parse an input format of John Doe or Doe, John A. into a UPN such as JADoe, still a work in progress...</td>
+                                    <td><a className="text-link" href={Parse3} target="#_blank">Parse3_Test.ps1</a></td>
+                                </tr>
+                            </Zoom>
 
-                        <Zoom>
-                            <tr>
-                                <td>ParseByEmail</td>
-                                <td>Parse by EMAIL with john.doe@domain.tld into UPN such as JADoe</td>
-                                <td><a className="text-link" href={ParseByEmail} target="#_blank">ParseByEmail.ps1</a></td>
-                            </tr>
-                        </Zoom>
+                            <Zoom>
+                                <tr>
+                                    <td>ParseByEmail</td>
+                                    <td>Parse by EMAIL with john.doe@domain.tld into UPN such as JADoe</td>
+                                    <td><a className="text-link" href={ParseByEmail} target="#_blank">ParseByEmail.ps1</a></td>
+                                </tr>
+                            </Zoom>
 
-                        <Zoom>
-                            <tr>
-                                <td>ParseNames</td>
-                                <td>This is intended to parse an input format of John Doe or Doe, John A. into a UPN such as JADoe</td>
-                                <td><a className="text-link" href={ParseNames} target="#_blank">ParseNames.ps1</a></td>
-                            </tr>
-                        </Zoom>
+                            <Zoom>
+                                <tr>
+                                    <td>ParseNames</td>
+                                    <td>This is intended to parse an input format of John Doe or Doe, John A. into a UPN such as JADoe</td>
+                                    <td><a className="text-link" href={ParseNames} target="#_blank">ParseNames.ps1</a></td>
+                                </tr>
+                            </Zoom>
 
-                    </tbody>
-                </table>
+                        </tbody>
+                    </table>
                 </div>
                 <Pulse><p>Below are some fun scripts I wrote for myself to in order to learn to use API data and text to speech in PowerShell</p></Pulse>
                 <div className="table-shrink">
                     <table className="table table-dark table-responsive">
-                    <thead>
-                        <Zoom>
-                            <tr>
-                                <th scope="col">Project</th>
-                                <th scope="col">Description</th>
-                                <th scope="col">Link</th>
-                            </tr>
-                        </Zoom>
+                        <thead>
+                            <Zoom>
+                                <tr>
+                                    <th scope="col">Project</th>
+                                    <th scope="col">Description</th>
+                                    <th scope="col">Link</th>
+                                </tr>
+                            </Zoom>
 
-                    </thead>
-                    <Zoom>
-                        <tbody>
-                            <tr>
-                                <td>btcChecker</td>
-                                <td>Prompts user for how long to run checks for, then checks BTC every 15 mins at <a className="text-link" href="https://blockchain.info/ticker">API</a></td>
-                                <td><a className="text-link" href={btcChecker} target="#_blank">btcChecker.ps1</a></td>
-                            </tr>
-                            <tr>
-                                <td>text2speech</td>
-                                <td>A simple script I wrote to learn how to use text to speech and get API data</td>
-                                <td><a className="text-link" id="java" href={text2speech} target="#_blank">text2speech.ps1</a></td>
-                            </tr>
-                        </tbody>
-                    </Zoom>
-                </table>
+                        </thead>
+                        <Zoom>
+                            <tbody>
+                                <tr>
+                                    <td>btcChecker</td>
+                                    <td>Prompts user for how long to run checks for, then checks BTC every 15 mins at <a className="text-link" href="https://blockchain.info/ticker">API</a></td>
+                                    <td><a className="text-link" href={btcChecker} target="#_blank">btcChecker.ps1</a></td>
+                                </tr>
+                                <tr>
+                                    <td>text2speech</td>
+                                    <td>A simple script I wrote to learn how to use text to speech and get API data</td>
+                                    <td><a className="text-link" id="java" href={text2speech} target="#_blank">text2speech.ps1</a></td>
+                                </tr>
+                            </tbody>
+                        </Zoom>
+                    </table>
                 </div>
             </div>
 
@@ -349,61 +397,61 @@ const Projects = () => {
                     <h2>Java Projects</h2>
                     <p>These are some small projects I wrote in Java while at University studying computer science</p>
                 </Pulse>
-                
+
                 <div className="table-shrink">
                     <table className="table table-dark table-responsive">
-                    <Zoom>
-                        <thead>
-                            <tr>
-                                <th scope="col">Project</th>
-                                <th scope="col">Description</th>
-                                <th scope="col">Link</th>
-                            </tr>
-                        </thead>
-                    </Zoom>
-
-                    <tbody>
                         <Zoom>
-                            <tr>
-                                <td>FileReader</td>
-                                <td>Reads and parses a file, and returns info about the file</td>
-                                <td><a className="text-link" href={FileReader} target="#_blank">FileReader.zip</a></td>
-                            </tr>
+                            <thead>
+                                <tr>
+                                    <th scope="col">Project</th>
+                                    <th scope="col">Description</th>
+                                    <th scope="col">Link</th>
+                                </tr>
+                            </thead>
                         </Zoom>
 
-                        <Zoom>
-                            <tr>
-                                <td>InfectionSim</td>
-                                <td>Visually simulates the exponential spread of infection in a petri dish; prints data about sim to console</td>
-                                <td><a className="text-link" href={InfectionSim} target="#_blank">InfectionSim.zip</a></td>
-                            </tr>
-                        </Zoom>
+                        <tbody>
+                            <Zoom>
+                                <tr>
+                                    <td>FileReader</td>
+                                    <td>Reads and parses a file, and returns info about the file</td>
+                                    <td><a className="text-link" href={FileReader} target="#_blank">FileReader.zip</a></td>
+                                </tr>
+                            </Zoom>
 
-                        <Zoom>
-                            <tr>
-                                <td>ListTraverse</td>
-                                <td>Allows the user to enter data, then retrieve in various ways, built as an exercise to traverse linked lists.</td>
-                                <td><a className="text-link" href={ListTraverse} target="#_blank">ListTraverse.zip</a></td>
-                            </tr>
-                        </Zoom>
+                            <Zoom>
+                                <tr>
+                                    <td>InfectionSim</td>
+                                    <td>Visually simulates the exponential spread of infection in a petri dish; prints data about sim to console</td>
+                                    <td><a className="text-link" href={InfectionSim} target="#_blank">InfectionSim.zip</a></td>
+                                </tr>
+                            </Zoom>
 
-                        <Zoom>
-                            <tr>
-                                <td>isPalindrome</td>
-                                <td>Checks if a given string is a palendrome</td>
-                                <td><a className="text-link" href={Palindrome} target="#_blank">Palindrome.zip</a></td>
-                            </tr>
-                        </Zoom>
+                            <Zoom>
+                                <tr>
+                                    <td>ListTraverse</td>
+                                    <td>Allows the user to enter data, then retrieve in various ways, built as an exercise to traverse linked lists.</td>
+                                    <td><a className="text-link" href={ListTraverse} target="#_blank">ListTraverse.zip</a></td>
+                                </tr>
+                            </Zoom>
 
-                        <Zoom>
-                            <tr>
-                                <td>Game</td>
-                                <td>A simple game developed in Java, plays similarly to the infamous "Flappy Bird", but is a bit less pretty and more difficult...<br />Compile Game.java last!</td>
-                                <td><a className="text-link" href={Game} target="#_blank">Game.zip</a></td>
-                            </tr>
-                        </Zoom>
-                    </tbody>
-                </table>
+                            <Zoom>
+                                <tr>
+                                    <td>isPalindrome</td>
+                                    <td>Checks if a given string is a palendrome</td>
+                                    <td><a className="text-link" href={Palindrome} target="#_blank">Palindrome.zip</a></td>
+                                </tr>
+                            </Zoom>
+
+                            <Zoom>
+                                <tr>
+                                    <td>Game</td>
+                                    <td>A simple game developed in Java, plays similarly to the infamous "Flappy Bird", but is a bit less pretty and more difficult...<br />Compile Game.java last!</td>
+                                    <td><a className="text-link" href={Game} target="#_blank">Game.zip</a></td>
+                                </tr>
+                            </Zoom>
+                        </tbody>
+                    </table>
                 </div>
             </div>
         </div>
