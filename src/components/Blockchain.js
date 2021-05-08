@@ -18,7 +18,8 @@ const smartContract = "https://en.wikipedia.org/wiki/Smart_contract"
 const github = "https://github.com/jbarber13"
 const peer = "https://en.wikipedia.org/wiki/Peer-to-peer"
 const pow = "https://en.wikipedia.org/wiki/Proof_of_work#:~:text=Proof%20of%20work%20(PoW)%20is,minimal%20effort%20on%20their%20part."
-
+const double = "https://en.wikipedia.org/wiki/Double-spending#:~:text=Double%2Dspending%20is%20a%20potential,be%20spent%20more%20than%20once.&text=As%20with%20counterfeit%20money%2C%20such,that%20did%20not%20previously%20exist."
+const sat = "https://en.wikipedia.org/wiki/Satoshi_Nakamoto#:~:text=Satoshi%20Nakamoto%20is%20the%20name,devised%20the%20first%20blockchain%20database."
 
 
 
@@ -60,7 +61,7 @@ const Blockchain = () => {
                             <img className="bimage" src={bitcoin} alt="blockchain"></img>
                         </a>
                         <p><br />
-                        Using this cryptographic technology, a method for storing and transferring value <a className="text-link" href={peer} target="_blank" rel="noreferrer">peer-to-peer</a> was devised by the anonymous Satoshi Nakamoto when they solved the double-spend problem, thus creating the first public blockchain, known as Bitcoin. Previously, when attempting to create a peer-to-peer electronic cash, a third party (such as a bank) was required to prevent double-spending. Bitcoin solves this problem using a distributed and decentralized network of individual computers that are incentivised to help secure the network and to prevent any double-spending or any other invalid behavior by any network participants. The computers in the network add transactions to the chain using a cryptographic <a className="text-link" href={pow} target="_blank" rel="noreferrer">proof-of-work</a> function, forming a record that cannot be changed without redoing the proof-of-work. As long as more than half of the participants are acting honestly, they will outpace attackers and secure the network. I would encourage anyone to read the <a className="text-link" href={whitePaper} target="_blank" rel="noreferrer">Bitcoin white paper</a> for more information on how this works in detail.
+                        Using this cryptographic technology, a method for storing and transferring value <a className="text-link" href={peer} target="_blank" rel="noreferrer">peer-to-peer</a> was devised by the anonymous <a className="text-link" href={sat} target="_blank" rel="noreferrer">Satoshi Nakamoto</a> when they solved the <a className="text-link" href={double} target="_blank" rel="noreferrer">double-spend</a> problem, thus creating the first public blockchain, known as Bitcoin. Previously, when attempting to create a peer-to-peer electronic cash, a third party (such as a bank) was required to prevent double-spending. Bitcoin solves this problem using a distributed and decentralized network of individual computers that are incentivised to help secure the network and to prevent any double-spending or any other invalid behavior by any network participants. The computers in the network add transactions to the chain using a cryptographic <a className="text-link" href={pow} target="_blank" rel="noreferrer">proof-of-work</a> function, forming a record that cannot be changed without redoing the proof-of-work. As long as more than half of the participants are acting honestly, they will outpace attackers and secure the network. I would encourage anyone to read the <a className="text-link" href={whitePaper} target="_blank" rel="noreferrer">Bitcoin white paper</a> for more information on how this works in detail.
                         </p>
                     </div>
 
