@@ -229,7 +229,7 @@ const Projects = () => {
                             <Zoom>
                                 <tr>
                                     <td>AddCarriageReturn</td>
-                                    <td>Add carriage return after ';', usefull for formatting text</td>
+                                    <td>Add carriage return after ';', useful for formatting text</td>
                                     <td><a className="text-link" href={AddCarriageReturn} target="#_blank">AddCarriageReturn.ps1</a></td>
                                 </tr>
                             </Zoom>
