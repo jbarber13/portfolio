@@ -1,4 +1,4 @@
-import React from "react"
+import React from 'react'
 import Zoom from 'react-reveal/Zoom'
 import Pulse from 'react-reveal/Pulse';
 
@@ -75,40 +75,25 @@ const Projects = () => {
                     <h2>
                         <a className="text-link" href={BarberBucksDex} target="_blank" rel="noreferrer">BarberBucks DEX</a>
                     </h2>
-                    <p><a className="text-link" href={BarberBucksDex} target="_blank" rel="noreferrer">BarberBucks DEX</a> is a decentralized token exchange that allows users to trade test ETH for the Barber Buck token (BB).
-                    </p>
                     <p>
+                        <a className="text-link" href={BarberBucksDex} target="_blank" rel="noreferrer">BarberBucks DEX</a> is a decentralized token exchange that allows users to trade test ETH for the Barber Buck token (BB).
                         This application is connected
-                        to the <a className="text-link" href={kovan} target="_blank" rel="noreferrer">Kovan Testnet</a>. Therefore
-                        no true value is exchanged via the application; it is for learning, testing, and demonstration purposes only.
-                    </p>
-                    <p>
-                        This application is a decentralized exchange, or a <a className="text-link" href="https://en.wikipedia.org/wiki/Decentralized_exchange"> DEX</a>
+                        to the <a className="text-link" href={kovan} target="_blank" rel="noreferrer">Kovan Testnet</a>. As it is for learning, testing, and demonstration purposes only,
+                        no true value is exchanged via the application.
+                        This application is what is known as a decentralized exchange, or a <a className="text-link" href="https://en.wikipedia.org/wiki/Decentralized_exchange"> DEX</a>
                         , and thus falls into a category of applications known as <a className="text-link" href="https://en.wikipedia.org/wiki/Decentralized_application" target="_blank" rel="noreferrer">DAPP</a>s.
-                    </p>
-                    <p>
-                        The front end application was developed in <a className="text-link" href={reactJS}> React JavaScript</a> and uses
-                        <a className="text-link" href={redux}> Redux</a> for state control.
-                    </p>
-                    <p>The front end application is hosted and deployed via <a className="text-link" href={amplify} target="_blank" rel="noreferrer">AWS Amplify</a></p>
-
-                    <p>
-                        The <a className="text-link" href={smartContract}> smart contract</a> for this DAPP was developed in <a className="text-link" href={solidity}> Solidity</a>,
-                        and was rigorously tested and deployed using <a className="text-link" href={ganache}> ganache</a> and <a className="text-link" href={truffle}> truffle.</a>
-                    </p>
-                    <p>
+                        The front end application was developed in <a className="text-link" href={reactJS}> React JavaScript</a>, uses <a className="text-link" href={redux}>Redux</a> for state control, and 
+                        is hosted and deployed via <a className="text-link" href={amplify} target="_blank" rel="noreferrer">AWS Amplify</a>.
+                        The <a className="text-link" href={smartContract}> smart contract</a> for this DAPP was developed in <a className="text-link" href={solidity}> Solidity</a>                      
+                        and was rigorously tested and deployed using <a className="text-link" href={ganache}> ganache</a> and <a className="text-link" href={truffle}> truffle</a>.
                         The connection to the blockchain is achieved using an API from <a className="text-link" href={infura}>Infura</a>.
-                    </p>
-                    <p>
-                        This DAPP requires a browser extension: <a className="text-link" href="https://metamask.io/" target="_blank" rel="noreferrer">MetaMask</a> in
+                        This DAPP requires the browser extension <a className="text-link" href="https://metamask.io/" target="_blank" rel="noreferrer">MetaMask</a> in
                         order to identify and authenticate users, funds, and transactions.
-                        This is an Ethereum wallet, and is the industry standard for interacting with decentralized applications at this time.
-                    </p>
-                    <p>You will need to switch the network in MetaMask to the Kovan Testnet.</p>
-                    <p>If you would like to receive some test ETH to interact with the dapp, please use the <a className="text-link" href="https://gitter.im/kovan-testnet/faucet" target="_blank" rel="noreferrer">faucet.</a></p>
-                    <p>Simply log in with a valid <a className="text-link" href="https://github.com/">GitHub</a> account and paste your wallet address from metamask (Kovan Testnet) in the chat and you will be sent some test ETH.</p>
-                    <p>
-                        The source code is available <a className="text-link" id="barberbucks-swap" href={BBDGIT}>here.</a>
+                        This is an Ethereum wallet and is the industry standard for interacting with decentralized applications at this time.
+                        You will need to switch the network in MetaMask to the Kovan Testnet.
+                        If you would like to receive some test ETH to interact with the DAPP, please use the <a className="text-link" href={kovan} target="_blank" rel="noreferrer">faucet</a>.
+                        Simply log in with a valid <a className="text-link" href="https://github.com/">GitHub</a> account and paste your wallet address from MetaMask (Kovan Testnet) in the chat and you will be sent some test ETH.
+                        The source code is available <a className="text-link" id="barberbucks-swap" href={BBDGIT}>here</a>.
                     </p>
                 </div>
             </Pulse>
@@ -118,41 +103,24 @@ const Projects = () => {
                         <a className="text-link" href={BBFSwap} target="_blank" rel="noreferrer">BarberBucks SWAP</a>
                     </h2>
                     <p>
-                        <a className="text-link" href={BBFSwap} target="_blank" rel="noreferrer">BarberBucks SWAP</a> is a decentralized token exchange that allows users to swap test ETH for BBF tokens at a fixed price in ETH.
-                    </p>
-                    <p>
-                        The token for this DAPP is separate from <a className="text-link" href={BarberBucksDex} target="_blank" rel="noreferrer">BarberBucks DEX</a> and is called Barber Buck Fixed, as the price is set to a fixed value in ETH
-                    </p>
-                    <p>
+                        <a className="text-link" href={BBFSwap} target="_blank" rel="noreferrer">BarberBucks SWAP</a> is a decentralized token exchange that allows users to swap test ETH for Barber Buck Fixed (BBF) tokens at a fixed price in ETH.
+                        The token for this DAPP is separate from <a className="text-link" href={BarberBucksDex} target="_blank" rel="noreferrer">BarberBucks DEX</a> as the price is set to a fixed value in ETH.
                         This application is connected
-                        to the <a className="text-link" href={kovan} target="_blank" rel="noreferrer">Kovan Testnet</a>. Therefore
-                        no true value is exchanged via the application; it is for learning, testing, and demonstration purposes only.
-                    </p>
-                    <p>
-                        This application is a decentralized exchange, or a <a className="text-link" href="https://en.wikipedia.org/wiki/Decentralized_exchange"> DEX</a>
+                        to the <a className="text-link" href={kovan} target="_blank" rel="noreferrer">Kovan Testnet</a>. As it is for learning, testing, and demonstration purposes only,
+                        no true value is exchanged via the application.
+                        This application is what is known as a decentralized exchange, or a <a className="text-link" href="https://en.wikipedia.org/wiki/Decentralized_exchange"> DEX</a>
                         , and thus falls into a category of applications known as <a className="text-link" href="https://en.wikipedia.org/wiki/Decentralized_application" target="_blank" rel="noreferrer">DAPP</a>s.
-                    </p>
-                    <p>
-                        The front end application was developed in <a className="text-link" href={reactJS}> React JavaScript</a> and uses react native state control.
-                    </p>
-                    <p>The front end application is hosted and deployed via <a className="text-link" href={amplify} target="_blank" rel="noreferrer">AWS Amplify</a></p>
-
-                    <p>
-                        The <a className="text-link" href={smartContract}> smart contract</a> for this DAPP was developed in <a className="text-link" href={solidity}> Solidity</a>,
-                        and was rigorously tested and deployed using <a className="text-link" href={ganache}> ganache</a> and <a className="text-link" href={truffle}> truffle.</a>
-                    </p>
-                    <p>
+                        The front end application was developed in <a className="text-link" href={reactJS}> React JavaScript</a>, uses react native state control, and
+                        is hosted and deployed via <a className="text-link" href={amplify} target="_blank" rel="noreferrer">AWS Amplify</a>.
+                        The <a className="text-link" href={smartContract}> smart contract</a> for this DAPP was developed in <a className="text-link" href={solidity}> Solidity</a>                      and was rigorously tested and deployed using <a className="text-link" href={ganache}> ganache</a> and <a className="text-link" href={truffle}> truffle</a>.
                         The connection to the blockchain is achieved using an API from <a className="text-link" href={infura}>Infura</a>.
-                    </p>
-                    <p>
-                        This DAPP requires a browser extension: <a className="text-link" href="https://metamask.io/" target="_blank" rel="noreferrer">MetaMask</a> in
+                        This DAPP requires the browser extension <a className="text-link" href="https://metamask.io/" target="_blank" rel="noreferrer">MetaMask</a> in
                         order to identify and authenticate users, funds, and transactions.
-                        This is an Ethereum wallet, and is the industry standard for interacting with decentralized applications at this time.
-                    </p>
-                    <p>You will need to switch the network in MetaMask to the Kovan Testnet.</p>
-                    <p>If you would like to receive some test ETH to interact with the dapp, please use the <a className="text-link" href="https://gitter.im/kovan-testnet/faucet" target="_blank" rel="noreferrer">faucet.</a></p>
-                    <p>
-                        The source code is available <a className="text-link" id="DSM" href={BBFSwapGIT}>here.</a>
+                        This is an Ethereum wallet and is the industry standard for interacting with decentralized applications at this time.
+                        You will need to switch the network in MetaMask to the Kovan Testnet.
+                        If you would like to receive some test ETH to interact with the DAPP, please use the <a className="text-link" href={kovan} target="_blank" rel="noreferrer">faucet</a>.
+                        Simply log in with a valid <a className="text-link" href="https://github.com/">GitHub</a> account and paste your wallet address from MetaMask (Kovan Testnet) in the chat and you will be sent some test ETH.
+                        The source code is available <a className="text-link" id="DSM" href={BBFSwapGIT}>here</a>.
                     </p>
                 </div>
             </Pulse>
@@ -160,63 +128,37 @@ const Projects = () => {
             <Pulse>
                 <div className="links" >
                     <h2>
-                        <a className="text-link" href={dsm} target="_blank" rel="noreferrer">Decentralized Social Media</a> 
+                        <a className="text-link" href={dsm} target="_blank" rel="noreferrer">Decentralized Social Media</a>
                     </h2>
                     <p>
-                        <a className="text-link" href={dsm} target="_blank" rel="noreferrer">Decentralized Social Media (DSM)</a> is a decentralized social media platform that uses a users blockchian address to authenticate rather than a traditional login, and runs and stores images in a decentralzied fashion.
-                    </p>
-                    <p>
-                        This application requires a browser extension: <a className="text-link" href="https://metamask.io/" target="_blank" rel="noreferrer">MetaMask</a> in
-                        order to connect to the blockchain, and thus to retreive the images stored there, and to allow the user to 'log in'. 
-                        This is an Ethereum wallet, and is the industry standard for interacting with decentralized applications at this time.
-                    </p>
-                    <p>
+                        <a className="text-link" href={dsm} target="_blank" rel="noreferrer">Decentralized Social Media (DSM)</a> is a decentralized social media platform that uses a user's blockchain address to authenticate rather than a traditional login and runs and stores images in a decentralzied fashion.
+                        This application requires the browser extension <a className="text-link" href="https://metamask.io/" target="_blank" rel="noreferrer">MetaMask</a> in
+                        order to connect to the blockchain, retreive the images stored there, and allow the user to log in.
+                        This is an Ethereum wallet and is the industry standard for interacting with decentralized applications at this time.
                         This application is connected
-                        to the <a className="text-link" href={rinkeby} target="_blank" rel="noreferrer">Rinkeby Testnet</a>. Therefore
-                        no true value is required to use the application; it is for learning, testing, and demonstration purposes only.
-                    </p>
-                    <p>Thusly, the network in MetaMask will need to be switched to the Rinkeby Testnet.</p>
-                    
-                    <p>
-                        Images are hosted using <a className="text-link" href={ipfs} target="_blank" rel="noreferrer">IPFS</a>, which is a distributed file hosting protocol. 
-                    </p>
-                    <p>
-                        Once images are stored on IPFS, a hash value is returned to represent that image, which is then stored on the <a className="text-link" href={smartContract}> smart contract</a> for this project.
-                    </p>
-                    <p>
-                        As always, the smart contract was developed in <a className="text-link" href={solidity}> Solidity</a>,
-                        and was rigorously tested and deployed using <a className="text-link" href={ganache}> ganache</a> and <a className="text-link" href={truffle}> truffle.</a>
-                    </p>
-                    
-                    <p>If you would like to receive some test ETH to interact with the dapp, please use the <a className="text-link" href={rFaucet} target="_blank" rel="noreferrer">faucet.</a></p>
-                    <p>
-                        The source code is available <a className="text-link" id="about-website" href={DSM_Git}>here.</a>
+                        to the <a className="text-link" href={rinkeby} target="_blank" rel="noreferrer">Rinkeby Testnet</a>. As it is for learning, testing, and demonstration purposes only,
+                        no true value is exchanged via the application.
+                        You will need to switch the network in MetaMask to the Rinkeby Testnet.                  
+                        Images are hosted using <a className="text-link" href={ipfs} target="_blank" rel="noreferrer">IPFS</a>, which is a distributed file hosting protocol.               
+                        Once images are stored on IPFS, a hash value is returned to represent that image, which is then stored on the <a className="text-link" href={smartContract}> smart contract</a> for this project.                
+                        As always, the smart contract was developed in <a className="text-link" href={solidity}> Solidity</a> and was rigorously tested and deployed using <a className="text-link" href={ganache}> ganache</a> and <a className="text-link" href={truffle}> truffle</a>.
+                        If you would like to receive some test ETH to interact with the DAPP, please use the <a className="text-link" href={rFaucet} target="_blank" rel="noreferrer">faucet</a>. 
+                        The source code is available <a className="text-link" id="about-website" href={DSM_Git}>here</a>.
                     </p>
                 </div>
             </Pulse>
-
-
-
-
-
             <Pulse>
                 <div className="links"  >
                     <h2>
                         <a className="text-link" href={portfolio} target="_blank" rel="noreferrer">About This Website</a>
                     </h2>
                     <p>
-                        I built this personal website to exercise my web development skills, and to demonstrate the projects I have made in my software development and IT career. Any and all future projects will be added here when possible.
-                    </p>
-                    <p>
+                        I built this personal website to exercise my web development skills and to demonstrate the projects I have made in my software development and IT career. Any and all future projects will be added here when possible.
                         This website was created using <a className="text-link" href={reactJS} target="_blank" rel="noreferrer">React JavaScript</a> and
-                        includes elements that utilize the <a className="text-link" href={bootstrap} target="_blank" rel="noreferrer">Bootstrap Framework.</a>
-                    </p>
-                    <p>
+                        includes elements that utilize the <a className="text-link" href={bootstrap} target="_blank" rel="noreferrer">Bootstrap Framework</a>.
                         This website was deployed using <a className="text-link" href={amplify} target="_blank" rel="noreferrer">AWS Amplify</a> and
-                        allows for continuous changes and updates through my <a className="text-link" id="WittyWeather" href={github} target="_blank" rel="noreferrer">git repository.</a>
-                    </p>
-                    <p>
-                        The domain is hosted on <a className="text-link" href={route53} target="_blank" rel="noreferrer">AWS Route 53.</a>
+                        allows for continuous changes and updates through my <a className="text-link" id="WittyWeather" href={github} target="_blank" rel="noreferrer">git repository</a>.
+                        The domain is hosted on <a className="text-link" href={route53} target="_blank" rel="noreferrer">AWS Route 53</a>.
                     </p>
 
                 </div>
@@ -230,21 +172,12 @@ const Projects = () => {
                     <p>
                         Witty Weather is an Android App that was developed by myself and a small team of students
                         at <a className="text-link" href={raddy} target="_blank" rel="noreferrer">Radford University</a> in a Software Engineering course.
+                        This app has never been deployed to a public marketplace and there is no intention to do so as it was an exercise in learning to implement APIs into an Android App.
+                        The git repository can be found <a className="text-link" href={ww} target="_blank" rel="noreferrer">here</a>.
+                        To get the build working correctly, clone a copy of this respository to your desktop and save all build files to a single folder.
+                        Open <a className="text-link" id="wildrydes" href={studio} target="_blank" rel="noreferrer">android studio</a> and click file &gt; open project and select the folder you put the build files in.
                     </p>
-                    <p>
-                        This app has never been deployed to a public marketplace and there is no intention to do so, it was an exercise in learning to implement APIs into an Android App.
-                    </p>
-                    <p>
-                        The git repository can be found <a className="text-link" href={ww} target="_blank" rel="noreferrer">here</a>
-                    </p>
-                    <p>
-                        To get the build working correctly, clone a copy of this respository to your desktop and save all build files into a single folder.
-                        Open <a className="text-link" id="wildrydes" href={studio} target="_blank" rel="noreferrer">android studio</a> and click file/open project and select the folder you put the build files in.
-                    </p>
-                    <p>
-                        This app has not been tested in some time so there may be bugs...
-                    </p>
-
+                
 
                 </div>
             </Pulse>
@@ -254,15 +187,15 @@ const Projects = () => {
                     <h2>
                         <a className="text-link" href={awsLink} target="_blank" rel="noreferrer">Wild Rydes</a>
                     </h2>
-                    <p><a className="text-link" href={awsLink} target="_blank" rel="noreferrer">Wild Rydes</a> is an application where users can create an account, log in, and then summon unicorns to any point on a global map
-                    </p>
-                    <p>This app was developed with the aid of a <a className="text-link" href={awsTutorialLink} target="_blank" rel="noreferrer">tutorial</a> provided
-                    by <a className="text-link" href={aws} target="_blank" rel="noreferrer">AWS</a> and was a great exercise for me to learn to use
-                    a serverless back end
-                    for <a className="text-link" href={cognito} target="_blank" rel="noreferrer">user access control</a>
-                    , <a className="text-link" href={lambda} target="_blank" rel="noreferrer">serverless computation</a>
-                    , <a className="text-link" href={StaticS3} target="_blank" rel="noreferrer">static website hosting</a>
-                    , and <a className="text-link" id="powershell" href={dynamoDB} target="_blank" rel="noreferrer">database storage</a>, all powered by AWS.
+                    <p>
+                        <a className="text-link" href={awsLink} target="_blank" rel="noreferrer">Wild Rydes</a> is an application where users can create an account, log in, and then summon unicorns to any point on a global map.
+                        This app was developed with the aid of a <a className="text-link" href={awsTutorialLink} target="_blank" rel="noreferrer">tutorial</a> provided
+                        by <a className="text-link" href={aws} target="_blank" rel="noreferrer">AWS</a> and was a great exercise for me to learn how to implement
+                        a serverless back end
+                        for <a className="text-link" href={cognito} target="_blank" rel="noreferrer">user access control</a>
+                        , <a className="text-link" href={lambda} target="_blank" rel="noreferrer">serverless computation</a>
+                        , <a className="text-link" href={StaticS3} target="_blank" rel="noreferrer">static website hosting</a>
+                        , and <a className="text-link" id="powershell" href={dynamoDB} target="_blank" rel="noreferrer">database storage</a>, all powered by AWS.
                     </p>
                 </div>
             </Pulse>
@@ -271,7 +204,7 @@ const Projects = () => {
             <div className="links" >
                 <Pulse>
                     <h2>Powershell Scripts</h2>
-                    <p>These are PowerShell scripts I made and used in a previous position to automate changes to production Active Directory environments in a U.S. Government contracting role</p>
+                    <p>These are PowerShell scripts I made and used in a previous position to automate changes to production Active Directory environments in a U.S. Government contracting role.</p>
                 </Pulse>
                 <div className="table-shrink">
                     <table className="table table-dark table-responsive">
@@ -360,7 +293,7 @@ const Projects = () => {
                         </tbody>
                     </table>
                 </div>
-                <Pulse><p>Below are some fun scripts I wrote for myself to in order to learn to use API data and text to speech in PowerShell</p></Pulse>
+                <Pulse><p>Below are some fun scripts I wrote for myself to in order to learn to use API data and text to speech in PowerShell.</p></Pulse>
                 <div className="table-shrink">
                     <table className="table table-dark table-responsive">
                         <thead>
@@ -395,7 +328,7 @@ const Projects = () => {
             <div className="links">
                 <Pulse>
                     <h2>Java Projects</h2>
-                    <p>These are some small projects I wrote in Java while at University studying computer science</p>
+                    <p>These are some small projects I wrote in Java while at University studying computer science.</p>
                 </Pulse>
 
                 <div className="table-shrink">
@@ -430,7 +363,7 @@ const Projects = () => {
                             <Zoom>
                                 <tr>
                                     <td>ListTraverse</td>
-                                    <td>Allows the user to enter data, then retrieve in various ways, built as an exercise to traverse linked lists.</td>
+                                    <td>Allows the user to enter data, then retrieve in various ways, built as an exercise to traverse linked lists</td>
                                     <td><a className="text-link" href={ListTraverse} target="#_blank">ListTraverse.zip</a></td>
                                 </tr>
                             </Zoom>
