@@ -84,7 +84,7 @@ const Projects = () => {
                         , and thus falls into a category of applications known as <a className="text-link" href="https://en.wikipedia.org/wiki/Decentralized_application" target="_blank" rel="noreferrer">DAPP</a>s.
                         The front end application was developed in <a className="text-link" href={reactJS}> React JavaScript</a>, uses <a className="text-link" href={redux}>Redux</a> for state control, and 
                         is hosted and deployed via <a className="text-link" href={amplify} target="_blank" rel="noreferrer">AWS Amplify</a>.
-                        The <a className="text-link" href={smartContract}> smart contract</a> for this DAPP was developed in <a className="text-link" href={solidity}> Solidity</a>                      
+                        The <a className="text-link" href={smartContract}> smart contract</a> for this DAPP was developed in <a className="text-link" href={solidity}> Solidity </a>                      
                         and was rigorously tested and deployed using <a className="text-link" href={ganache}> ganache</a> and <a className="text-link" href={truffle}> truffle</a>.
                         The connection to the blockchain is achieved using an API from <a className="text-link" href={infura}>Infura</a>.
                         This DAPP requires the browser extension <a className="text-link" href="https://metamask.io/" target="_blank" rel="noreferrer">MetaMask</a> in
