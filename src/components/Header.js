@@ -10,9 +10,7 @@ const Header = () => {
                     <Typed
                         className="typed-text"
                         strings={["Blockchain Technology is the future!"]}
-                        typeSpeed={80}
-                        backSpeed={5}
-                        loop
+                        typeSpeed={100}                        
                     />
                 </h1>
                 <br />
@@ -30,8 +28,6 @@ const Header = () => {
                         shuffle
                     />
                 </div>
-
-
                 <a href="#contact-info" className="contact"> Contact Me</a>
             </div>
         </div>

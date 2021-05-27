@@ -15,7 +15,7 @@ const About = () => {
                     <p className="about-info" >
                         My name is <a className="text-link" href="https://linkedin.com/in/jakebarber1996" target="_blank" rel="noreferrer">Jake Barber</a> and I am an experienced Software Developer and IT Professional, specializing in blockchain technology.
                     </p>
-                    <p className="about-info" id="contact-info">
+                    <p className="about-info" >
                         I graduated from <a className="text-link" href={raddy} target="_blank" rel="noreferrer">Radford University</a> in 2018 with a Bachelor of Science Degree in Computer Science and Technology, with a concentration in Database Design, as well as an Undergraduate Information Security Certificate recognized by the NSA.
                     </p>
                     <p className="about-info" >
@@ -24,7 +24,7 @@ const About = () => {
                     <p>
                     Through my experience and education, I have always strived to consistently demonstrate my ambition and desire for excellence in my work, my aptitude to learn at an accelerated pace, and my enthusiasm to communicate that knowledge to my peers.
                     </p>
-                    <p>
+                    <p id="contact-info">
                         At this time, I am eager to specialize further in the field of software development and I am excited to do so in the realm of blockchain technology.
                     </p>       
                     
@@ -32,8 +32,7 @@ const About = () => {
             </Zoom>
             <br />
             <Zoom delay={200}>
-                <div className="links" >
-                    
+                <div className="links"  >                    
                     <div>
                         <h1 className="about-header">Contact Information</h1>
 
