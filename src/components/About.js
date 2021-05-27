@@ -26,8 +26,7 @@ const About = () => {
                     </p>
                     <p id="contact-info">
                         At this time, I am eager to specialize further in the field of software development and I am excited to do so in the realm of blockchain technology.
-                    </p>       
-                    
+                    </p>                       
                 </div>
             </Zoom>
             <br />
