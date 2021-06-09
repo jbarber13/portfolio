@@ -160,7 +160,7 @@ const Projects = () => {
                         <a className="text-link" href={cryptogram} target="_blank" rel="noreferrer">CryptoGram</a> is an upgraded decentralized social media platform that uses a user's blockchain address to authenticate in a similar way to <a className="text-link" href={dsm} target="_blank" rel="noreferrer">Decentralized Social Media (DSM)</a>.
                         CryptoGram includes a large amount of added functionality over the original DSM. Users can make comments on posts, and these comments can be tipped by other participants, highest tipped comments and posts are shown first. 
                         Users can make their own accounts with customizable data, 
-                        such as a profile picture, User Name, Bio, Occupation, and Location.
+                        such as a Profile Picture, User Name, Bio, Occupation, and Location.
                         All of these data fields can be updated at any time by the user, and the data is written to the blockchain. 
                         If a user has not made an account, their posts and comments will appear to have come from their wallet address, rather than their custom user name.
                         If a user has made an account, they may also see their own post and comment history. The user can then delete any existing posts or comments they have made, as well as their whole account if desired.
