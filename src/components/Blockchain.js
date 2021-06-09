@@ -96,7 +96,7 @@ const Blockchain = () => {
                 <Pulse delay={400}>
                     <div>
                         <p className="blockchain-words-paragraph">
-                        In order to take it upon myself to fully understand how to implement smart contracts on a public blockchain like Ethereum, I have been working on a number of various decentralized applications, each with their own specific technology that I have aimed to learn more about in practice. Please see below in the “Projects” section to read specific details about each project, and feel free to visit my public GitHub as I am constantly adding more projects.
+                        In order to take it upon myself to fully understand how to implement smart contracts on a public blockchain like Ethereum, I have been working on a number of various decentralized applications, each with their own specific technology that I have aimed to learn more about in practice. Please see below in the “Projects” section to read specific details about each project, and feel free to visit my public <a className="text-link" href={github} target="_blank" rel="noreferrer">GitHub</a> as I am constantly adding more projects.
                     </p>
                         <div className="row">
                             <div className="column">

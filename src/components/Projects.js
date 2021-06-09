@@ -24,6 +24,9 @@ const dsm = "https://dsm.jake-barber.com"
 const ipfs = "https://ipfs.io/"
 const rFaucet = "https://faucet.rinkeby.io/"
 const DSM_Git = "https://github.com/jbarber13/DSM/tree/master"
+//CryptoGram
+const cryptogram = "https://cryptogram.jake-barber.com"
+const cryptogram_git = "https://github.com/jbarber13/cryptogram"
 //PERSONAL WEBSITE
 const portfolio = "https://www.jake-barber.com/"
 const reactJS = "https://reactjs.org/"
@@ -143,10 +146,49 @@ const Projects = () => {
                         Once images are stored on IPFS, a hash value is returned to represent that image, which is then stored on the <a className="text-link" href={smartContract}> smart contract</a> for this project.                
                         As always, the smart contract was developed in <a className="text-link" href={solidity}> Solidity</a> and was rigorously tested and deployed using <a className="text-link" href={ganache}> ganache</a> and <a className="text-link" href={truffle}> truffle</a>.
                         If you would like to receive some test ETH to interact with the DAPP, please use the <a className="text-link" href={rFaucet} target="_blank" rel="noreferrer">faucet</a>. 
-                        The source code is available <a className="text-link" id="about-website" href={DSM_Git}>here</a>.
+                        The source code is available <a className="text-link" id="cryptogram" href={DSM_Git}>here</a>.
                     </p>
                 </div>
             </Pulse>
+
+            <Pulse>
+                <div className="links" >
+                    <h2>
+                        <a className="text-link" href={cryptogram} target="_blank" rel="noreferrer">CryptoGram</a>
+                    </h2>
+                    <p>
+                        <a className="text-link" href={cryptogram} target="_blank" rel="noreferrer">CryptoGram</a> is an upgraded decentralized social media platform that uses a user's blockchain address to authenticate in a similar way to <a className="text-link" href={dsm} target="_blank" rel="noreferrer">Decentralized Social Media (DSM)</a>.
+                        CryptoGram includes a large amount of added functionality over the original DSM. Users can make comments on posts, and these comments can be tipped by other participants, highest tipped comments and posts are shown first. 
+                        Users can make their own accounts with customizable data, 
+                        such as a profile picture, User Name, Bio, Occupation, and Location.
+                        All of these data fields can be updated at any time by the user, and the data is written to the blockchain. 
+                        If a user has not made an account, their posts and comments will appear to have come from their wallet address, rather than their custom user name.
+                        If a user has made an account, they may also see their own post and comment history. The user can then delete any existing posts or comments they have made, as well as their whole account if desired.
+                        
+                        <br /><br />
+
+                        This application is a proof-of-concept for a decentralized social media platform. As such, Images are hosted using <a className="text-link" href={ipfs} target="_blank" rel="noreferrer">IPFS</a>, which is a distributed file hosting protocol.               
+                        Once images are stored on IPFS, a hash value is returned to represent that image, which is then stored on the <a className="text-link" href={smartContract}> smart contract</a> for this project.                
+                        
+                        <br /><br />
+                        This application requires the browser extension <a className="text-link" href="https://metamask.io/" target="_blank" rel="noreferrer">MetaMask</a> in
+                        order to connect to the blockchain, retreive the images stored there, and allow the user to log in.
+                        This is an Ethereum wallet and is the industry standard for interacting with decentralized applications at this time.
+                        This application is connected
+                        to the <a className="text-link" href={rinkeby} target="_blank" rel="noreferrer">Rinkeby Testnet</a>. As it is for learning, testing, and demonstration purposes only,
+                        no true value is exchanged via the application.
+                        You will need to switch the network in MetaMask to the Rinkeby Testnet.     
+                        <br /><br />     
+                        The front end application was developed in <a className="text-link" href={reactJS}> React JavaScript</a>, uses <a className="text-link" href={redux}>Redux</a> for state control, and 
+                        is hosted and deployed via <a className="text-link" href={amplify} target="_blank" rel="noreferrer">AWS Amplify</a>.     
+                        As always, the smart contract was developed in <a className="text-link" href={solidity}> Solidity</a> and was rigorously tested and deployed using <a className="text-link" href={ganache}> ganache</a> and <a className="text-link" href={truffle}> truffle</a>.
+                        If you would like to receive some test ETH to interact with the DAPP, please use the <a className="text-link" href={rFaucet} target="_blank" rel="noreferrer">faucet</a>. 
+                        The source code  form this application is available <a className="text-link" id="about-website" href={cryptogram_git}>here</a>.
+                    </p>
+                </div>
+            </Pulse>
+
+
             <Pulse>
                 <div className="links"  >
                     <h2>
