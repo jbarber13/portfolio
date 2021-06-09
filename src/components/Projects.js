@@ -164,20 +164,18 @@ const Projects = () => {
                         All of these data fields can be updated at any time by the user, and the data is written to the blockchain. 
                         If a user has not made an account, their posts and comments will appear to have come from their wallet address, rather than their custom user name.
                         If a user has made an account, they may also see their own post and comment history. The user can then delete any existing posts or comments they have made, as well as their whole account if desired.
-                        
                         <br /><br />
-
                         This application is a proof-of-concept for a decentralized social media platform. As such, Images are hosted using <a className="text-link" href={ipfs} target="_blank" rel="noreferrer">IPFS</a>, which is a distributed file hosting protocol.               
                         Once images are stored on IPFS, a hash value is returned to represent that image, which is then stored on the <a className="text-link" href={smartContract}> smart contract</a> for this project.                
-                        
                         <br /><br />
                         This application requires the browser extension <a className="text-link" href="https://metamask.io/" target="_blank" rel="noreferrer">MetaMask</a> in
                         order to connect to the blockchain, retreive the images stored there, and allow the user to log in.
                         This is an Ethereum wallet and is the industry standard for interacting with decentralized applications at this time.
                         This application is connected
-                        to the <a className="text-link" href={rinkeby} target="_blank" rel="noreferrer">Rinkeby Testnet</a>. As it is for learning, testing, and demonstration purposes only,
-                        no true value is exchanged via the application.
-                        You will need to switch the network in MetaMask to the Rinkeby Testnet.     
+                        to the <a className="text-link" href={rinkeby} target="_blank" rel="noreferrer">Rinkeby Testnet</a>. 
+                        You will need to switch the network in MetaMask to the Rinkeby Testnet.
+                        As it is for learning, testing, and demonstration purposes only, utilizing the Rinkeby Testnet ensures that
+                        no true value is exchanged via the application.     
                         <br /><br />     
                         The front end application was developed in <a className="text-link" href={reactJS}> React JavaScript</a>, uses <a className="text-link" href={redux}>Redux</a> for state control, and 
                         is hosted and deployed via <a className="text-link" href={amplify} target="_blank" rel="noreferrer">AWS Amplify</a>.     
