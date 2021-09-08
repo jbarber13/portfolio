@@ -20,7 +20,7 @@ const Header = () => {
                 <div className="typed">
                     <Typed
                         className="typed-text"
-                        strings={["Blockchain", "Ethereum", "Solidity", "Web3", "React", "Redux", "Truffle", "Ganache"]}
+                        strings={["Blockchain", "Ethereum", "Solidity", "Web3", "Ethers.js", "Hardhat", "React", "Redux", "Truffle", "Ganache"]}
                         typeSpeed={80}
                         backSpeed={100}
                         loop
