@@ -16,7 +16,6 @@ const Header = () => {
                 <br />
                 
                 
-                <p>My name is Jake Barber, and I am an expierenced Software Developer and IT Proffesional, specializing in blockchain technology.</p>
                 <p>Scroll down to learn more about me!</p>
                 <div className="typed">
                     <Typed
