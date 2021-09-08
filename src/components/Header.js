@@ -26,6 +26,9 @@ const Header = () => {
                         loop
                         shuffle
                     />
+
+
+                    
                 </div>
                 <a href="#contact-info" className="contact"> Contact Me</a>
             </div>
