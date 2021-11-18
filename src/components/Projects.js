@@ -189,7 +189,7 @@ const Projects = () => {
 
             <Pulse>
                 <div className="links"  >
-                    <h2>j
+                    <h2>
                         <a className="text-link" href={portfolio} target="_blank" rel="noreferrer">About This Website</a>
                     </h2>
                     <p>
