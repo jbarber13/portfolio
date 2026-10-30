@@ -1,5 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+// Bootstrap must load before our own CSS so our styles win (react-scripts 5
+// bundles CSS in import order instead of a separate vendor chunk).
+import "bootstrap/dist/css/bootstrap.min.css";
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
